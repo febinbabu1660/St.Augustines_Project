@@ -1,0 +1,2132 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* menu bar and navbar  */
+
+
+
+.navbar{
+    padding: 0% 10%;
+}
+
+.navbar-brand{
+    width: 6%;
+}
+
+.MenuBar-body{
+    width: 25.6875rem;
+    height: 48rem;
+    background-color: white;
+
+}
+
+  /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(90%);
+    }
+  }
+
+  /* Apply the animation to the modal */
+  .modal.slide-right .modal-dialog {    
+    animation: slideInRight 0.5s forwards;
+  }
+
+.modal-content{
+    /* width: 100%; */
+    width: 25.6875rem;
+    height: 43rem;
+    align-content: center;
+    text-align: center;
+    margin-left: 7rem !important;
+
+}
+
+
+.toggle-item{
+    align-items: center;
+    width: 100%;
+    margin-top: 4%;
+    text-decoration: none;
+    padding-right: 5%;
+    
+}
+
+.items-blue{
+    width: 16.1875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #003049;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.items-red{
+    width: 15.875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.toggle-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5%;
+    padding: 5%;
+}                                              
+.link-toggle{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link-toggle:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.navbar{
+    padding-top: 3%;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+
+
+
+.nav-link{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.first-banner{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1%;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+
+.column-1{
+    padding-top: 15%;
+    padding-bottom: 8%;
+}
+
+
+.banner-content{
+    padding-left: 20%;
+    width: 90%;
+    }
+
+
+.sname{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 90%;
+   
+
+}
+
+
+
+
+.s-words{
+    color: #780000;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    padding-top: 2%;
+
+}
+
+
+
+
+.input-group{
+    width: 25.5rem;
+    height: 3.6875rem;
+    flex-shrink: 0; 
+    border-radius: 0.4375rem;
+    background: #669BBC;
+  
+}
+
+
+.form-control {
+    width: 25.5rem;
+    height: 3.6875rem;
+    flex-shrink: 0; 
+    border-radius: 0.4375rem !important;
+    background: #669BBC;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left:8%;
+}
+
+.btn-login {
+    width: 5.5625rem;
+    height: 1.9rem; /* Adjusted the height to match the input */
+    flex-shrink: 0;
+    border-radius:0.375rem !important;
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    z-index: 1000;
+}
+
+
+.second-image{
+    background-image: url("../Images/Rectangle\ 192.svg");
+    background-size: 92%;
+    background-repeat: no-repeat;
+}
+
+.third-image{
+    
+    background-image: url("../Images/Rectangle\ 193.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 0;
+    margin-right: 0;
+   
+}
+
+
+
+.he-is-risen-banner{
+   background-image: url("../Images/Rectangle\ 200.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 2%;
+   height: 65.25rem;
+   width: 100%;
+   overflow: hidden;
+}
+
+.second-banner-content{
+    padding-top: 25%;
+    padding-bottom: 10%;
+}
+
+.follower{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.625rem; /* 140.625% */
+    letter-spacing: 0.07681rem;
+    width: 70%;
+    
+}  
+
+.jesus{
+    color: #780000;
+    font-family: Abril Fatface;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.625rem; /* 140.625% */
+    letter-spacing: 0.07681rem;
+    width: 70%;
+}
+.hir-content-1{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9rem; /* 120% */
+    letter-spacing: 0.024rem;
+    width: 60%;
+    text-align: left;
+    padding-top: 8%;
+}
+
+.hir-content-2{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 60%;
+    text-align: left;
+}
+
+.hir-content-3{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 60%;
+    text-align: left;
+}
+
+
+/* rule  */
+
+
+.saint-rules{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.saint-rules h3{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 5.4375rem */
+    margin: auto;
+    text-align: center;
+
+}
+
+.saint-rules p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; 
+    margin: auto;
+    padding-top: 2%;
+    width: 90%;
+}
+
+
+.chapters{
+    color: #780000;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+
+
+
+.where-we-are{
+    flex-shrink: 0;
+    background: #780000;
+}
+
+.Where-we-are-heading{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 4.6875rem */
+    width: 53%;
+    margin: auto;
+    margin-top: 9%;
+
+
+}
+
+.where-description{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 1.6875rem */
+    width: 53%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+
+/* CSS */
+.learn-more {
+    appearance: button;
+    background: #669BBC;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 2.025rem */
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 23%;
+    margin-top: 4%;
+  }
+  
+  .learn-more:focus {
+    text-decoration: none;
+  }
+  
+  .learn-more:hover {
+    text-decoration: none;
+  }
+  
+  .learn-more:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .learn-more:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .learn-more {
+      padding: 12px 50px;
+    }
+  }
+
+
+  .learn-more-1 {
+    appearance: button;
+    background: #669BBC;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 2.025rem */
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 7%;
+    margin-top: 4%;
+  }
+ 
+
+  .church-img{
+    background-image: url("../Images/Rectangle\ 202.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30rem;
+}
+
+.church-img-1{
+    background-image: url("../Images/Rectangle\ 206.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30rem;
+}
+
+
+  .saint-img{
+    background-image: url("../Images/Rectangle\ 203.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30rem;  
+  }
+
+  .family{
+    background: #003049;
+    padding-top: 2%;
+    height: 30rem;
+  }
+
+  .the-augustinian-family{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 4.6875rem */
+    width: 60%;
+    margin: auto;
+    margin-top: 4%;
+    margin-left: 7%;
+
+  }
+
+  
+.family-description{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 1.6875rem */
+    width: 53%;
+    margin-left: 7%;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.our-links{
+    background: #780000;
+}
+
+.our-links-heading{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 4.6875rem */
+    width: 53%;
+    margin: auto;
+    margin-top: 9%;
+
+
+}
+
+
+.video-title{
+    color: #27292E;
+    font-family: Abril Fatface;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 5.4375rem */
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.Video-thumbnail{
+    width: 100%;
+    margin: auto;
+    flex: 0;
+}
+.thumbnail{
+    width: 100%;
+    margin-top: 3%;
+}
+
+.prayer{
+    background: #003049;
+    max-width: 100%;
+}
+
+
+
+.prayer img{
+    margin: 5% 0%;
+    width: 100%;
+}
+
+.prayer h3{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 80%;
+    margin-top: 30%;
+    padding-left: 4%;
+}
+
+.prayer p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 73%;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+
+
+.prayer button{
+    width: 12.5rem;
+    height: 3.375rem;
+    flex-shrink: 0;
+    border-radius: 0.875rem;
+    background: #D9D9D9;
+
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.father-imgs{
+    margin-top: 5%; 
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+
+.last-column-image{
+    background-image: url("../Images/Rectangle\ 453.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    fill: linear-gradient(0deg, #003049 0%, rgba(0, 48, 73, 0.00) 76%);
+    padding-top: 85%;
+    
+}
+
+
+
+.priest-content{
+    margin-top: -5%;
+    z-index: 10;
+    position: absolute;
+    width: 50%;
+}
+
+.father-imgs h3{
+    color: #ededed;
+    font-family: Abril Fatface;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+
+    width: 21.03038rem;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.father-imgs p{
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+
+padding-left: 4%;
+padding-right: 2%;
+padding-bottom: 6%;
+width: 90%;
+
+}
+
+
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 8rem;
+
+    margin-top: 6%;
+}
+.stay-updated{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 66.667% */
+    letter-spacing: 0.04319rem;
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 4%;
+}
+
+.footer{
+    background: #003049;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-logo{
+    flex-shrink: 0;
+    padding-top: 5%;
+    margin-left: 40%;
+}
+
+.f-logo{
+    width: 20%;
+}
+
+
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 96% */
+    letter-spacing: 0.03rem;
+    padding-top: 5%;
+}
+
+.s-name{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 8%;
+    width: 100%;
+}
+.footer-heading{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 133.333% */
+    letter-spacing: 0.02163rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Cabin;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+.text-footer:hover{
+    color: var(--basic-white, #FAFAFA);
+   
+}
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+
+.privacy{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+.social-media-buttons{
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* for tablets  */
+
+
+    .navbar-toggler-icon-1{
+        font-size: 1.5rem;
+    }
+    
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        padding: 0;
+
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        background-color: white;
+        
+    
+    }
+    
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+   
+    .modal-body ul{
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .navbar-brand{
+        width: 5.9375rem;
+        height: 5.53638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+    }
+    
+
+    .nav-link{
+        color: #003049;
+        font-size: 0.7973rem;
+        align-items: center;
+       
+    }
+
+    .nav-link .active{
+        color: #ffffff ;
+        font-size: 0.7973rem;
+       
+    }
+
+
+.sname{
+    font-size: 1.9rem;
+}
+
+.s-words{
+    font-size: 0.6rem;
+}
+
+
+.input-group{
+    width: 18.5rem;
+    height: 2.6875rem;
+    flex-shrink: 0; 
+    background: #669BBC;
+    border: none;
+  
+}
+
+.form-control {
+    width: 17.5rem;
+    height: 2.6875rem;
+    font-size: 0.7rem;
+    padding-left:12%;
+}
+
+.btn-login {
+    width: 4.5625rem;
+    height: 1.5rem; /* Adjusted the height to match the input */
+    font-size: 0.8rem;
+    top: 23%;
+    z-index: 100;
+}
+
+
+
+
+.he-is-risen-banner{
+    background-size: 55rem;
+    margin-bottom: 2%;
+    height: 30.25rem;
+    width: 100%;
+ }
+ 
+ .second-banner-content{
+     padding-top: 5%;
+     padding-bottom: 10%;
+     padding-left: 2%;
+ }
+ 
+ .follower{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.625rem; /* 225% */
+    letter-spacing: 0.048rem;
+     width: 80%;
+     
+ }  
+ 
+ .jesus{
+    color: #780000;
+    font-family: Abril Fatface;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.625rem; /* 225% */
+    letter-spacing: 0.048rem;
+     width: 70%;
+ }
+
+
+ .hir-content-1{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+     width: 90%;
+     text-align: left;
+     padding-top: 8%;
+ }
+ 
+ .hir-content-2{
+    font-size: 0.9375rem;
+     width: 90%;
+     text-align: left;
+ }
+ 
+ .hir-content-3{
+    display: none;
+ }
+ 
+ /* rule  */
+ 
+ 
+ .saint-rules{
+     width: 85%;
+     height: 100%;
+     background-color: white;
+     text-align: justify;
+     margin-top: 5%;
+ }
+ 
+ .saint-rules h3{
+     font-size: 2.1875rem;
+ 
+ }
+ 
+ .saint-rules p{
+     font-size: 0.9375rem;
+     text-align: justify;
+ }
+ 
+ 
+ .chapters{
+     color: #780000;
+     font-size: 0.9375rem;
+ }
+ 
+ .saint-rules,.video-img,.prayer, .father-imgs, .stay-upto-date{
+    overflow: hidden;
+}
+
+ 
+ 
+ .where-we-are{
+     flex-shrink: 0;
+     background: #780000;
+     padding-bottom: 1%;
+     height: 18rem;
+     padding-top: 2%;
+ }
+ 
+ .Where-we-are-heading{
+    font-size: 1.5625rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 8%;
+ 
+ 
+ }
+ 
+ .where-description{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 1.125rem */
+     width: 80%;
+     margin: auto;
+     margin-top: 2%;
+     text-align: justify;
+ }
+ 
+ 
+ /* CSS */
+ .learn-more {
+    
+    appearance: button;
+    background: #669BBC;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
+    border: 1px solid #FFF;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 2.025rem */
+    overflow: visible;
+    padding: 2% 5%;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 10%;
+    margin-top: 4%;
+   }
+   
+   .learn-more:focus {
+     text-decoration: none;
+   }
+   
+   .learn-more:hover {
+     text-decoration: none;
+   }
+   
+   .learn-more:active {
+     box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+     outline: 0;
+   }
+   
+   .learn-more:not([disabled]):active {
+     box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+     transform: translate(2px, 2px);
+   }
+   
+   @media (min-width: 768px) {
+     .learn-more {
+       padding: 12px 50px;
+     }
+   }
+ 
+ 
+   .learn-more-1 {
+    appearance: button;
+    background: #669BBC;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
+    border: 1px solid #FFF;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 2.025rem */
+    overflow: visible;
+    padding: 3% 7%;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 7%;
+    margin-top: 1%;
+   }
+   
+ 
+ 
+   .church-img{
+    background-size: cover;
+    height: 18rem;
+}
+ 
+
+.church-img-1{
+    background-size: cover;
+    height: 18rem;
+}
+
+   .saint-img{
+    background-size: cover;
+    height: 18rem;  
+  }
+ 
+   .family{
+     background: #003049;
+     padding-top: 2%;
+     padding-bottom: 4%;
+     height: 18rem;
+   }
+ 
+   .the-augustinian-family{
+     font-size: 1.5625rem;
+     width: 90%;
+     margin-top: 8%;
+     margin-left: 7%;
+ 
+   }
+ 
+   
+ .family-description{
+     font-size: 0.625rem;
+     width: 90%;
+     margin-left: 7%;
+     margin-top: 2%;
+     text-align: justify;
+ }
+ 
+ .our-links{
+     background: #780000;
+     padding-top: 2%;
+     padding-bottom: 4%;
+     height: 18rem;
+ }
+ 
+ .our-links-heading{
+    font-size: 1.5625rem;
+    width: 90%;
+     margin-top: 8%;
+     margin-left: 10%;
+ 
+ 
+ }
+ 
+ 
+ .video-title{
+    font-size: 2.1875rem;
+     width: 100%;
+     margin: auto;
+     text-align: center;
+     margin-top: 5%;
+ }
+ 
+ 
+ .thumbnail{
+     width: 100%;
+     margin-top: 3%;
+ }
+
+ .prayer img{
+     margin: 5% 0%;
+     width: 100%;
+ }
+ 
+
+
+ .prayer h3{
+    font-size: 1.25rem;
+ 
+     width: 90%;
+     margin-top: 13%;
+     padding-left: 4%;
+ }
+ 
+ .prayer p{
+    font-size: 0.625rem;
+     width: 90%;
+     padding-left: 4%;
+     padding-top: 4%;
+ }
+ 
+ 
+ .prayer button{
+    width: 5.3125rem;
+    height: 1.5625rem;
+    flex-shrink: 0;
+    border-radius: 0.40625rem;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ 
+    color: #780000;
+    font-family: Poppins;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+     margin-left: 4%;
+     margin-top: 3%;
+ }
+ 
+ .father-imgs{
+     margin-top: 8%; 
+     padding: 0;
+     width: 100%;
+ 
+ }
+ 
+ 
+ .last-column-image{
+     background-image: url("../Images/Rectangle\ 453.svg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     padding-top: 85%;
+     width: 100%;
+     
+ }
+ 
+ 
+ 
+ .priest-content{
+     margin-top: -5%;
+     z-index: 10;
+     position: absolute;
+     width: 50%;
+     
+ }
+ 
+ .father-imgs h3{
+     color: #ededed;
+     font-family: Abril Fatface;
+     font-size: 1.5625rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     text-transform: capitalize;
+ 
+     width: auto;
+     padding-left: 4%;
+     padding-right: 4%;
+ }
+ 
+ .father-imgs p{
+ font-size: 0.9375rem;
+ padding-left: 4%;
+ padding-right: 2%;
+ padding-bottom: 6%;
+ width: 90%;
+    
+     
+ 
+ }
+ 
+ 
+ 
+ 
+
+/* tab footer  */
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+
+
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin-left: 45%;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 80%;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 0;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    font-size: 0.75rem;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code for mobile view  */
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+    
+
+
+   
+
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+ 
+
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    
+    }
+    
+
+    /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(15%);
+    }
+  }
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+    .modal-body {
+        padding: 0;
+        
+    }
+    .modal-body ul
+    {
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        color: black;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar-brand{
+        width: 4.4375rem;
+        height: 4.13638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        background-color: rgba(211, 208, 205, 0.88);
+        z-index: 199;
+
+    }
+
+    .btn-link{
+        margin-left: 39%;
+        margin-bottom: 7%;
+    }
+    
+    .navbar-toggler-icon-1{
+        font-size: 1.7rem;
+    }
+
+
+    .nav-link{
+        font-size: 0.7973rem;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+    .first-banner{
+        overflow: hidden;
+        height: 100vh;
+    }
+
+.banner-content{
+
+    width: 190%;
+    padding-left: 5%;
+}
+
+
+    .sname{
+        font-size: 4rem;
+        width: 100%;
+        
+    }
+    
+    .s-words{
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    
+    
+    .input-group{
+        width: 17.1875rem;
+        height: 2.75rem;
+        flex-shrink: 0; 
+        background: #669BBC;
+        border: none;
+      
+    }
+    
+    .form-control {
+        width: 17.5rem;
+        height: 2.6875rem;
+        font-size: 0.9rem;
+        padding-left:12%;
+    }
+    
+    .btn-login {
+        width: 3.5625rem;
+        height: 1.5rem; /* Adjusted the height to match the input */
+        font-size: 0.9rem;
+        top: 26%;
+        z-index: 100;
+    }
+    
+    
+    .saint-rules,.video-img,.prayer, .father-imgs, .stay-upto-date{
+        overflow: hidden;
+    }
+
+
+    
+    .he-is-risen-banner{
+        background-position: 30%;
+        margin-bottom: 2%;
+        height: 25.25rem;
+        width: 100%;
+        overflow: hidden;
+     }
+     
+     .second-banner-content{
+         padding-top: 10%;
+         padding-bottom: 10%;
+         padding-left: 2%;
+     }
+     
+     .follower{
+        font-size: 1.8rem;
+        letter-spacing: 0.024rem;
+         width: 100%;
+         line-height: 3.625rem; 
+         margin: auto;
+         text-align: right;
+         padding-right: 5%;
+     }  
+     
+     .jesus{
+        font-size: 2rem;
+        letter-spacing: 0.024rem;
+         width: 100%;
+         line-height: 0.625rem; 
+         margin: auto;
+         text-align: right;
+         padding-right: 5%;
+     }
+    
+    
+     .hir-content-1{
+        color: #003049;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem; /* 160% */
+        letter-spacing: 0.018rem;
+         width: 90%;
+         text-align: right;
+         padding-top: 8%;
+         margin: auto;
+     }
+     
+     .hir-content-2{
+      display: none;
+     }
+     
+     .hir-content-3{
+        display: none;
+     }
+     
+     /* rule  */
+     
+     
+     .saint-rules{
+         width: 85%;
+         height: 100%;
+         background-color: white;
+         text-align: justify;
+         margin-top: 5%;
+     }
+     
+     .saint-rules h3{
+         font-size: 1.25rem;
+     
+     }
+     
+     .saint-rules p{
+         font-size: 0.9rem;
+         text-align: justify;
+     }
+     
+     
+     .chapters{
+         color: #780000;
+         font-size: 0.7375rem;
+     }
+     
+     
+     
+     
+     .where-we-are{
+         flex-shrink: 0;
+         background: #780000;
+         padding-bottom: 5%;
+     }
+     
+     .Where-we-are-heading{
+        font-size: 1.5rem;
+        width: 90%;
+        margin: auto;
+        margin-top: 7%;
+     
+     
+     }
+     
+     .where-description{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 0.925rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%; /* 1.125rem */
+         width: 90%;
+         margin: auto;
+         margin-top: 2%;
+         text-align: justify;
+     }
+     
+     
+     /* CSS */
+     .learn-more {
+        
+        appearance: button;
+        background: #669BBC;
+        box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
+        border: 1px solid #FFF;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Poppins;
+        font-size: 0.85rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 2.025rem */
+        overflow: visible;
+        padding:4% 10%;
+        text-align: center;
+        text-transform: none;
+        touch-action: manipulation;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+        margin-left: 5%;
+        margin-top: 4%;
+        margin-bottom: 3%;
+       }
+       
+       .learn-more:focus {
+         text-decoration: none;
+       }
+       
+       .learn-more:hover {
+         text-decoration: none;
+       }
+       
+       .learn-more:active {
+         box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+         outline: 0;
+       }
+       
+       .learn-more:not([disabled]):active {
+         box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+         transform: translate(2px, 2px);
+       }
+       
+       @media (min-width: 768px) {
+         .learn-more {
+           padding: 12px 50px;
+         }
+       }
+     
+     
+       .learn-more-1 {
+        appearance: button;
+        background: #669BBC;
+        box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
+        border: 1px solid #FFF;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Poppins;
+        font-size: 0.85rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%; /* 2.025rem */
+        overflow: visible;
+        padding: 4% 10%;
+        text-align: center;
+        text-transform: none;
+        touch-action: manipulation;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+        margin-left: 7%;
+        margin-top: 1%;
+       }
+       
+     
+     
+       .church-img{
+         background-size: 100%;
+         height: 12rem;
+       }
+     
+ 
+       .church-img-1{
+        background-size: 100%;
+        height: 12rem;
+      }
+    
+
+       .saint-img{
+        background-size: 100%;
+        height: 12rem;
+
+       }
+     
+       .family{
+         background: #003049;
+         padding-top: 2%;
+         padding-bottom: 4%;
+         height: 22rem;
+       }
+     
+       .the-augustinian-family{
+         font-size: 1.5rem;
+         width: 90%;
+         margin-top: 5%;
+         margin-left: 7%;
+     
+       }
+     
+       
+     .family-description{
+         font-size: 0.975rem;
+         width: 90%;
+         margin-left: 7%;
+         margin-top: 2%;
+         text-align: justify;
+     }
+     
+     .our-links{
+         background: #780000;
+         padding-top: 2%;
+         padding-bottom: 4%;
+     }
+     
+     .our-links-heading{
+        font-size: 1.5rem;
+        width: 90%;
+         margin-top: 4%;
+         margin-left: 5%;
+     
+     
+     }
+     
+     
+     .video-title{
+        font-size: 1.1875rem;
+         width: 100%;
+         margin: auto;
+         text-align: center;
+         margin-top: 5%;
+     }
+     
+     
+     .thumbnail{
+         width: 100%;
+         margin-top: 3%;
+     }
+
+     .prayer{
+        height: 65rem;
+     }
+    
+     .prayer img{
+         margin: 5% 4%;
+         width: 100%;
+     }
+     
+    
+    
+     .prayer h3{
+        font-size: 1.9rem;
+         width: 100%;
+         margin-top: 10%;
+         text-align: center;
+     }
+     
+     .prayer p{
+        font-size: 1rem;
+         width: 100%;
+         padding-left: 4%;
+         padding-top: 4%;
+         text-align: justify;
+     }
+     
+     
+     .prayer button{
+        width: 7.3125rem;
+        height: 2.5625rem;
+        flex-shrink: 0;
+        border-radius: 0.40625rem;
+        background: #D9D9D9;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     
+        color: #780000;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 35%;
+         margin-top: 3%;
+     }
+     
+     .father-imgs{
+         padding: 0;
+         width: 90%;
+         margin: auto;
+         margin-top: 8%; 
+
+     
+     }
+     
+     
+     .last-column-image{
+         background-image: url("../Images/Rectangle\ 453.svg");
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+         padding-top: 85%;
+         width: 100%;
+         
+     }
+     
+     .last-column-image-1{
+        display: none;
+     }
+     
+     .priest-content{
+         margin-top: -5%;
+         z-index: 10;
+         position: absolute;
+         width: 50%;
+         
+     }
+     
+     .father-imgs h3{
+         color: #ededed;
+         font-family: Abril Fatface;
+         font-size: 1.5625rem;
+         font-style: normal;
+         font-weight: 400;
+         line-height: normal;
+         text-transform: capitalize;
+     
+         width: 21.03038rem;
+         padding-left: 4%;
+         padding-right: 4%;
+     }
+     
+     .father-imgs p{
+     font-size: 0.9375rem;
+     padding-left: 4%;
+     padding-right: 2%;
+     padding-bottom: 6%;
+     width: 90%;
+        
+         
+     
+     }
+     
+     
+
+
+     .stay-upto-date{
+        background: #780000;
+        width: 100%;
+        height: 4.1875rem;
+    }
+    .stay-updated{
+        font-size: 1.25rem;
+        letter-spacing: 0.024rem;
+        width: 90%;
+        padding-left: 10%;
+    }
+    
+    
+    .footer-logo{
+        width: 4.89019rem;
+        height: 4.473rem;
+        padding-top: 5%;
+        margin: auto;
+    }
+    
+    .f-logo{
+        width: 100%;
+    }
+    
+    .sentence{
+        padding-bottom: 5%;
+    }
+    
+    .sentence-1{
+        width: 100%;
+        text-align: center;
+        font-size: 0.925rem;
+        letter-spacing: 0.024rem;
+        padding-top: 10%;
+        margin: auto;
+    }
+    
+    .s-name{
+        font-size: 0.9375rem;
+        line-height: 1.5rem; /* 160% */
+        letter-spacing: 0.018rem;
+        margin: auto;
+        width: 100%;
+        padding-top: 1%;
+    }
+    
+    
+    .footer-row{
+        padding-left: 2%;
+        width: 100%;
+    }
+    .footer-heading{
+        font-size: 0.9375rem;
+        letter-spacing: 0.018rem;
+        padding-bottom: 1%;
+    }
+    
+    
+    .text-footer{
+        color: var(--Basic-white, #FAFAFA);
+        font-family: Poppins;
+        font-size: 0.775rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 0.625rem; /* 166.667% */
+        text-decoration: none;
+      
+     
+    }
+    
+    
+    
+    .last-line-footer{
+        margin-top: 5%;
+        align-items: center;
+    }
+    
+    .copyright{
+        width: 100%;
+        font-size: 0.75rem;
+        line-height: 1.5rem; /* 200% */
+        letter-spacing: 0.01438rem;
+    }
+    
+    .privacy{
+        font-size: 0.75rem;
+        line-height: 1.5rem; /* 200% */
+        letter-spacing: 0.01438rem;
+    }
+    
+    .social-media-buttons{
+        font-size: 1.5rem;
+        flex-shrink: 0;
+        
+    }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+}

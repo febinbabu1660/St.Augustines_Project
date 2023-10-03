@@ -1,0 +1,1576 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* menu bar and navbar  */
+
+.MenuBar-body{
+    width: 25.6875rem;
+    height: 48rem;
+    background-color: white;
+
+}
+
+  /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(70%);
+    }
+  }
+
+  /* Apply the animation to the modal */
+  .modal.slide-right .modal-dialog {    
+    animation: slideInRight 0.5s forwards;
+  }
+
+.modal-content{
+    /* width: 100%; */
+    width: 25.6875rem;
+    height: 43rem;
+    align-content: center;
+    text-align: center;
+    margin-left: 7rem !important;
+
+}
+
+
+.toggle-item{
+    align-items: center;
+    width: 100%;
+    margin-top: 4%;
+    text-decoration: none;
+    padding-right: 5%;
+    
+}
+
+.items-blue{
+    width: 16.1875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #003049;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.items-red{
+    width: 15.875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.toggle-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5%;
+    padding: 5%;
+}                                              
+.link-toggle{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link-toggle:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.banner-page{
+    background-image: linear-gradient( rgba(8, 5, 1, 0.20),rgba(8, 5, 1, 0.20)), url("../Images/Rectangle\ 249.svg") ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+
+
+
+.nav-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar-toggler-icon-1{
+    font-size: 1.7rem;
+}
+
+
+
+
+
+.banner-wrapper{
+    width: 60%;
+    padding-left: 10%;
+    padding-top: 12%;
+}
+
+.banner-wrapper h3{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-wrapper p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+
+    width: 41.281rem;
+    height: 9.3125rem;
+    flex-shrink: 0;
+}
+
+.banner-wrapper button{
+    border-radius: 0.4375rem;
+    background: #FFF;
+    width: 9.875rem;
+    height: 2.8125rem;
+    flex-shrink: 0;
+
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.second-section{
+    width: 100%;
+    height: 30.5rem;
+    flex-shrink: 0;
+    background: #003049;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.second-section h3{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.second-section p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 100%;
+    text-align: justify;
+}
+
+.third-section{
+    width: 100%;
+    height: 74rem;
+    padding-top: 5%;
+}
+/* 
+.ellipse{
+    padding-top: 0%;
+    margin-top: 0;
+}
+.vertical-line{
+    width: 0.375rem;
+    height: 18.375rem;
+    flex-shrink: 0;
+    background: #780000;
+    margin-left: 36%;
+} */
+
+
+.third-section h3{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-top: 0%;
+    padding-bottom: 3%;
+}
+
+.third-section p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.first-row-content{
+    height: 55rem;
+}
+
+.background-frame-red{
+    width: 80%;
+    height: 100%;
+    background-color: #780000;
+    border-radius: 0rem 9.7375rem 0rem 0rem;
+    overflow: hidden;
+}
+
+.fourth-section{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.fourth-img-1-priest{
+    width: 96%;
+    padding-top: 5%;
+}
+
+.first-row-content h3{
+    color: #780000;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 80%;
+
+}
+
+.first-row-content p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 60%;
+    padding-top: 3%;
+
+}
+
+
+
+
+
+.second-row-content{
+    height: 60%;
+}
+
+
+
+.background-frame-blue{
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 10rem 0rem 0rem 0rem;
+    background: #003049; 
+    padding-right: 0;
+}
+
+
+.fourth-img-2-church{
+    width: 96%;
+    padding-top: 5%;
+    margin-left: 5%;
+}
+.second-row-content h3{
+    color: #780000;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 80%;
+    padding-left: 20%;
+
+}
+
+.second-row-content p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 80%;
+    padding-top: 3%;
+    padding-left: 20%;
+
+}
+
+
+.fifth-section{
+    background-color: grey;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.saint-words{
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 71.625rem;
+    height: 20.5rem;
+    flex-shrink: 0;
+}
+
+.saint-words h5{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 6%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.saint-words p{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: right;
+
+}
+.last-section {
+    position: relative; /* Add this to make it a reference point for absolute positioning */
+}
+
+.last-section h3 {
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: auto;
+    padding-top: 7%;
+}
+
+.card {
+    border: none;
+    padding: 5%;
+}
+
+/* CSS for navigation arrows */
+.slider-arrow {
+    position: absolute; /* Position absolutely relative to the .last-section */
+    top: 65%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    color: #780000;
+    border-radius: 50%;
+    font-size: 5rem;
+}
+
+.slider-arrow.prev {
+    left: 120px;
+}
+
+.slider-arrow.next {
+    right: 120px;
+}
+
+
+
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 8rem;
+    margin-top: 7%;
+}
+.stay-updated{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 66.667% */
+    letter-spacing: 0.04319rem;
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 4%;
+}
+
+.footer{
+    background: #003049;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-logo{
+    flex-shrink: 0;
+    padding-top: 5%;
+    margin-left: 40%;
+}
+
+.f-logo{
+    width: 25%;
+}
+
+
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 96% */
+    letter-spacing: 0.03rem;
+    padding-top: 5%;
+}
+
+.s-name{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 8%;
+    width: 100%;
+}
+.footer-heading{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 133.333% */
+    letter-spacing: 0.02163rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Cabin;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+.text-footer:hover{
+    color: var(--basic-white, #FAFAFA);
+   
+}
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+
+.privacy{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+.social-media-buttons{
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* for tablets  */
+
+
+    .navbar-toggler-icon-1{
+        font-size: 1.5rem;
+    }
+    
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        padding: 0;
+
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        background-color: white;
+        
+    
+    }
+    
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+   
+    .modal-body ul{
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .navbar-brand{
+        width: 5.9375rem;
+        height: 5.53638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+    }
+    
+
+    .nav-link{
+        color: #ffffff;
+        font-size: 0.7973rem;
+        align-items: center;
+       
+    }
+
+    .nav-link .active{
+        color: #ffffff ;
+        font-size: 0.7973rem;
+       
+    }
+
+
+
+
+
+
+    .banner-page{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 30rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .banner-wrapper{
+        width: 80%;
+        padding-left: 10%;
+        padding-top: 15%;
+    }
+    
+    .banner-wrapper h3{
+        font-size: 2rem;
+    }
+    
+    .banner-wrapper p{
+        font-size: 0.95rem;
+        width: 80%;
+        height: 100%;
+        flex-shrink: 0;
+    }
+    
+    .banner-wrapper button{
+        width: 7.875rem;
+        height: 2.8125rem;
+        font-size: 0.925rem;
+    }
+    
+
+    .ellipse{
+        display: none;
+    }
+    .vertical-line{
+        display: none;
+    }
+    
+    
+    .second-section{
+        width: 100%;
+        height: 20.5rem;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .second-section h3{
+        font-size: 2.75rem;
+    }
+    
+    .second-section p{
+        font-size: 1.1rem;
+    }
+    
+    .third-section{
+        width: 100%;
+        height: 52rem;
+    }
+    
+
+
+
+    .third-section h3{
+        font-size: 2.75rem;
+    }
+    
+    .third-section p{
+        font-size: 0.975rem;
+    }
+    
+    .first-row-content{
+        height: 30rem;
+    }
+    
+    .background-frame-red{
+        background: none;
+        overflow: hidden;
+    }
+    
+    .fourth-section{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    .fourth-img-1-priest{
+        width: 100%;
+        height: 30rem;
+        padding-top: 5%;
+    }
+    
+
+
+    .first-row-content h3{
+        font-size: 2.125rem;
+        width: 80%;
+    
+    }
+    
+    .first-row-content p{
+        font-size: 0.975rem;
+        width: 90%;
+        padding-top: 3%;
+    
+    }
+    
+    
+    
+    
+    
+    .second-row-content{
+        /* background-color: red; */
+        height: 50%;
+    }
+    
+    
+    
+    .background-frame-blue{
+        width: 90%;
+        height: 90%;
+        overflow: hidden;
+        border-radius: 10rem 0rem 0rem 0rem;
+        background: none; 
+        padding-right: 0;
+    }
+    
+    
+    .fourth-img-2-church{
+        width: 100%;
+        padding-top: 5%;
+        margin-right: 0;   
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+    .second-row-content h3{
+        font-size: 2.125rem;
+        width: 90%;
+        padding-left: 5%;
+    
+    }
+    
+    .second-row-content p{
+        font-size: 0.975rem;
+        width: 100%;
+        padding-top: 3%;
+        padding-left: 5%;
+    
+    }
+    
+    
+    .fifth-section{
+        background-color: grey;
+        margin-top: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .saint-words{
+        background: #780000;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 71.625rem;
+        height: 10.5rem;
+        flex-shrink: 0;
+    }
+    
+    .saint-words h5{
+        font-size: 1.5rem;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .saint-words p{
+        font-size: 1.1rem;
+    
+    }
+    .last-section {
+        position: relative; /* Add this to make it a reference point for absolute positioning */
+    }
+    
+    .last-section h3 {
+        font-size: 2.125rem;
+    }
+    
+    .card {
+        border: none;
+        padding: 5%;
+    }
+    
+    .card-image{
+        width: 100%;
+    }
+
+
+    /* CSS for navigation arrows */
+    .slider-arrow {
+        position: absolute; /* Position absolutely relative to the .last-section */
+        top: 65%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        padding: 10px;
+        color: #780000;
+        border-radius: 50%;
+        font-size: 3rem;
+    }
+    
+    .slider-arrow.prev {
+        left: 1%;
+    }
+    
+    .slider-arrow.next {
+        right: 1%;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+/* tab footer  */
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+
+
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin-left: 45%;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 80%;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 0;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    font-size: 0.75rem;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code for mobile view  */
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+
+
+   /* mobile navbar */
+
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .banner-page{
+        width: 100%;
+        height: 42rem;
+        background-position: center;
+        overflow: hidden;
+    }
+
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    
+    }
+    
+
+    /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(15%);
+    }
+  }
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+    .modal-body {
+        padding: 0;
+        
+    }
+    .modal-body ul
+    {
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        color: black;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar-brand{
+        width: 4.4375rem;
+        height: 4.13638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        background-color: rgba(54, 53, 52, 0.88);
+        z-index: 199;
+
+    }
+
+    .btn-link{
+        margin-left: 39%;
+        margin-bottom: 7%;
+    }
+    
+    .navbar-toggler-icon-1{
+        font-size: 1.7rem;
+    }
+
+
+    .nav-link{
+        font-size: 0.973rem;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+    .first-banner{
+        overflow: hidden;
+    }
+
+.banner-content{
+    width: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-page{
+    background-repeat: no-repeat;
+    background-position: 70%;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+.banner-wrapper{
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.banner-wrapper h3{
+    font-size: 3.9rem;
+}
+
+.banner-wrapper p{
+    font-size: 1.3rem;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.banner-wrapper button{
+    width: 9.875rem;
+    height: 2.9125rem;
+    font-size: 1.25rem;
+}
+
+
+.second-section{
+    width: 100%;
+    height: 19.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+}
+
+.second-section h3{
+    font-size: 1.5rem;
+}
+
+.second-section p{
+    font-size: 0.825rem;
+}
+
+.third-section{
+    width: 100%;
+    height: 53rem;
+}
+
+
+.third-section h3{
+    font-size: 1.75rem;
+}
+
+.third-section p{
+    font-size: 0.825rem;
+    text-align: justify;
+
+}
+
+.first-row-content{
+    height: 60rem;
+}
+
+.background-frame-red{
+    background: none;
+    overflow: hidden;
+    margin: auto;
+}
+
+.fourth-section{
+    overflow: hidden;
+    margin: auto;
+}
+.fourth-img-1-priest{
+    width: 100%;
+    height: 30rem;
+    padding-top: 5%;
+}
+
+.first-row-content-description{
+    margin: auto;
+    padding-left: 10%;
+}
+
+.first-row-content h3{
+    font-size: 1.8rem;
+    width: 90%;
+
+}
+
+.first-row-content p{
+    font-size: 1rem;
+    width: 90%;
+    padding-top: 1%;
+    text-align: justify;
+
+}
+
+
+.ellipse{
+    display: none;
+}
+.vertical-line{
+    display: none;
+}
+
+
+
+.second-row-content{
+    height: 35rem;
+    padding-top: 30%;
+    margin: auto;
+}
+
+
+
+.background-frame-blue{
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    padding-right: 0;
+    background: none;
+    margin: auto;
+}
+
+
+.fourth-img-2-church{
+    width: 100%;
+    margin: auto;
+    padding-right: 13%;
+}
+.second-row-content h3{
+    font-size: 1.125rem;
+    width: 90%;
+    padding-left: 5%;
+    display: none;
+
+}
+
+.second-row-content p{
+    font-size: 0.825rem;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 5%;
+    display: none;
+}
+
+
+.fifth-section{
+    background-color: grey;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.saint-words{
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    width: 95%;
+    height: 7.5rem;
+    flex-shrink: 0;
+}
+
+.saint-words h5{
+    font-size: 1rem;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.saint-words p{
+    font-size: 0.875rem;
+
+}
+.last-section {
+    position: relative; /* Add this to make it a reference point for absolute positioning */
+}
+
+.last-section h3 {
+    font-size: 2rem;
+    padding-top: 15%;
+}
+
+.card {
+    border: none;
+    padding: 5%;
+}
+
+.card-image{
+    width: 100%;
+}
+
+
+/* CSS for navigation arrows */
+.slider-arrow {
+    position: absolute; /* Position absolutely relative to the .last-section */
+    top: 65%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    color: #780000;
+    border-radius: 50%;
+    font-size: 3rem;
+}
+
+.slider-arrow.prev {
+    left: 120px;
+    display: none;
+
+}
+
+.slider-arrow.next {
+    right: 120px;
+    display: none;
+}
+
+.mobile-card{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile footer  */
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin: auto;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    text-align: center;
+    font-size: 0.925rem;
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 2%;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--Basic-white, #FAFAFA);
+    font-family: Poppins;
+    font-size: 0.775rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.625rem; /* 166.667% */
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

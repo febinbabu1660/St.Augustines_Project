@@ -1,0 +1,1831 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* menu bar and navbar  */
+
+.MenuBar-body{
+    width: 25.6875rem;
+    height: 48rem;
+    background-color: white;
+
+}
+
+  /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(70%);
+    }
+  }
+
+  /* Apply the animation to the modal */
+  .modal.slide-right .modal-dialog {    
+    animation: slideInRight 0.5s forwards;
+  }
+
+.modal-content{
+    /* width: 100%; */
+    width: 25.6875rem;
+    height: 43rem;
+    align-content: center;
+    text-align: center;
+    margin-left: 7rem !important;
+
+}
+
+
+.toggle-item{
+    align-items: center;
+    width: 100%;
+    margin-top: 4%;
+    text-decoration: none;
+    padding-right: 5%;
+    
+}
+
+.items-blue{
+    width: 16.1875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #003049;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.items-red{
+    width: 15.875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.toggle-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5%;
+    padding: 5%;
+}                                              
+.link-toggle{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link-toggle:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.banner-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Images/Rectangle\ 294.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+
+
+
+.nav-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.navbar-toggler-icon-1{
+    font-size: 1.7rem;
+}
+
+
+
+
+
+
+
+.rectangle{
+    z-index: 10;
+    position: absolute;
+    top: 89%;
+    left: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 65%; */
+    padding: 50px;
+
+    width: 71.125rem;
+    height: 9rem;
+    flex-shrink: 0;
+    border-radius: 1.1875rem;
+    background: #780000;
+}
+
+.rectangle h3{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second-section h3{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-top: 5%;
+    text-align: center;
+}
+
+
+.second-section {
+    position: relative; /* Add this to make it a reference point for absolute positioning */
+}
+
+
+
+.card {
+    border: none;
+    padding: 5%;
+}
+
+.card-set {
+    display: none; /* Initially hide all card sets */
+}
+
+.active-card-set {
+    display: flex; /* Display the active card set */
+}
+
+/* CSS for navigation arrows */
+.slider-arrow {
+    position: absolute; /* Position absolutely relative to the .last-section */
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    color: #780000;
+    border-radius: 50%;
+    font-size: 5rem;
+}
+
+.slider-arrow.prev {
+    left: 120px;
+}
+
+.slider-arrow.next {
+    right: 120px;
+}
+
+
+
+
+.title-div{
+    height: 4.0625rem;
+    flex-shrink: 0;
+    background: #003049;
+}
+
+.card-title{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+
+    padding-top: 2%;
+}
+
+.card p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.675rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 100%;
+    text-align: justify;
+    padding-top: 5%;
+}
+
+.Read-more{
+    width: 11.75rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+    border-radius: 4rem;
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.third-section{
+    width: 100%;
+    background: #D9D9D9;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    height: 50.4375rem;
+    flex-shrink: 0;
+    padding-right: 0;
+    margin-right: 10;
+}
+
+
+
+.row-content-1{
+    width: 100%;
+    padding-right: 5%;
+    margin-right: 0;
+    padding-left: 5%;
+    height: 17rem;
+}
+
+.first-div-row-1{
+    background-color: #003049;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    height: 17rem;
+}
+
+
+
+.third-section h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.third-section p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 90%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.sub-images-third-section{
+    width: 100%;
+    padding-right: 0 !important;
+    margin: auto;
+}
+.sub-images-third-section-1{
+    background-image: url("../Images/Rectangle 300.svg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+
+}
+.sub-images-third-section-2{
+    background-image: url("../Images/Rectangle 301.svg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    padding-left: 1%;
+}
+
+
+.row-content-2{
+    width: 100%;
+    padding-right: 5%;
+    margin-right: 0;
+    padding-left: 5%;
+}
+
+.first-div-row-2{
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    height: 17rem;
+}
+
+
+.row-1-fourt-section{
+    height: 100%;
+}
+
+.fourth-section img{
+    width: 95%;
+
+}
+
+.fourth-section h3{
+    color: #780000;
+    text-align: left;
+    font-family: Abril Fatface;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-top: 4%;
+
+}
+
+.fourth-section p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    width: 90%;
+}
+
+
+.row-2-fourt-section{
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.contactUs-blue-banner{
+    background-color: #003049;
+    background-image: url("../Images/Frame-Newshub.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 38rem;
+    overflow: hidden;
+    padding-top: 9%;
+
+}
+
+.contactUs-blue-banner h3{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 80%;
+}
+
+.contactUs-blue-banner button{
+    width: 12.5rem;
+    height: 4.1875rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #780000;
+    font-family: Abril Fatface;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 5%;
+}
+
+
+.fifth-section{
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+
+}
+
+.fifth-section h3{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+    padding-bottom: 7%;
+
+}
+
+.fifth-section p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.image-banner{
+    
+    text-align: center;
+    padding: 5% 20%;
+}
+
+.image-banner img{
+    width: 100%;
+
+}
+
+.grid-pics{
+    padding-left: 16.3%;
+    padding-right: 16.3%;
+}
+
+.last-section h4{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.last-section p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 8rem;
+}
+.stay-updated{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 66.667% */
+    letter-spacing: 0.04319rem;
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 4%;
+}
+
+.footer{
+    background: #003049;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-logo{
+    flex-shrink: 0;
+    padding-top: 5%;
+    margin-left: 40%;
+}
+
+.f-logo{
+    width: 25%;
+}
+
+
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 96% */
+    letter-spacing: 0.03rem;
+    padding-top: 5%;
+}
+
+.s-name{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 8%;
+    width: 100%;
+}
+.footer-heading{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 133.333% */
+    letter-spacing: 0.02163rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Cabin;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+.text-footer:hover{
+    color: var(--basic-white, #FAFAFA);
+   
+}
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+
+.privacy{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+.social-media-buttons{
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* for tablets  */
+
+
+  /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(45%);
+    }
+  }
+
+
+    .navbar-toggler-icon-1{
+        font-size: 1.5rem;
+    }
+    
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        padding: 0;
+
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        background-color: white;
+        
+    
+    }
+    
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+   
+    .modal-body ul{
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .navbar-brand{
+        width: 5.9375rem;
+        height: 5.53638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+    }
+    
+    .navbar-nav{
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .nav-link{
+        color: #ffffff;
+        font-size: 0.8rem;
+        align-items: center;
+       
+    }
+
+    .nav-link .active{
+        color: #ffffff ;
+        font-size: 0.7973rem;
+       
+    }
+
+  .btn-link{
+    font-size: 1rem;
+  } 
+
+
+
+
+
+  .banner-page{
+    width: 100%;
+height: 35rem;
+    background-size: 100%;
+}
+
+
+
+
+
+
+.rectangle{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    padding: 5%;
+    width: 46rem;
+    height: 8rem;
+}
+
+.rectangle h3{
+    font-size: 2.2rem;
+}
+
+.second-section h3{
+    font-size: 2rem;
+
+    padding-top: 3%;
+}
+
+
+.second-section {
+    position: relative; /* Add this to make it a reference point for absolute positioning */
+}
+
+
+
+.card {
+    border: none;
+    padding: 5%;
+    background: transparent;
+}
+
+.card-set {
+    display: none; /* Initially hide all card sets */
+}
+
+.active-card-set {
+    display: flex; /* Display the active card set */
+}
+
+/* CSS for navigation arrows */
+.slider-arrow {
+    position: absolute; /* Position absolutely relative to the .last-section */
+    top: 35%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    color: #780000;
+    border-radius: 50%;
+    font-size: 2.5rem;
+}
+
+.slider-arrow.prev {
+    left: 2%;
+}
+
+.slider-arrow.next {
+    right: 2%;
+}
+
+
+
+.title-div{
+    height: 2.625rem;
+    flex-shrink: 0;
+    background: #003049;
+}
+
+.card-title{
+    font-size: 0.95rem;
+    padding-top: 6%;
+    align-items: center;
+}
+
+.card p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 100%;
+    text-align: justify;
+    padding-top: 5%;
+}
+
+.Read-more{
+    width: 8.75rem;
+    height: 2.75rem;
+    font-size: 0.85rem;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+
+
+.third-section{
+    width: 100%;
+    background: #D9D9D9;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 42rem;
+    flex-shrink: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+
+
+.row-content-1{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+    height: 12rem;
+
+}
+
+.first-div-row-1{
+    padding-bottom: 4%;
+    margin: auto;
+    height: 13rem;
+}
+
+
+
+.third-section h4{
+    font-size: 1.25rem;
+}
+
+
+.third-section p{
+    font-size: 0.95rem;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.sub-images-third-section{
+    width: 100%;
+    height: 100%;
+    padding-right: 0 !important;
+    margin: auto;
+}
+.sub-images-third-section-1{
+    background-size: 85%;
+    background-position: center;
+}
+
+.sub-images-third-section-2{
+    display: none;
+}
+
+.row-content-2{
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: 0;
+}
+
+.first-div-row-2{
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin: auto;
+    margin-top: 5%;
+    height: 13rem;
+}
+
+
+.row-1-fourt-section{
+    height: 100%;
+}
+
+.fourth-section img{
+    width: 95%;
+
+}
+
+.fourth-section h3{
+    font-size: 1.5rem;
+}
+
+.fourth-section p{
+    font-size: 0.925rem;
+    width: 100%;
+}
+
+
+
+
+.contactUs-blue-banner{
+    background-size: 30%;
+
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    padding-top: 9%;
+    
+
+}
+
+.contactUs-blue-banner h3{
+    font-size: 2.185rem;
+    width: 80%;
+}
+
+.contactUs-blue-banner button{
+    width: 9.5rem;
+    height: 3.1875rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #780000;
+    font-family: Abril Fatface;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 5%;
+}
+
+
+.fifth-section h3{
+    font-size: 2.5rem;
+    padding-bottom: 5%;
+
+}
+
+.fifth-section p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 0.925rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.image-banner{
+    
+    text-align: center;
+    padding: 4% 15%;
+}
+
+.image-banner img{
+    width: 100%;
+
+}
+
+.grid-pics{
+
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.grid-rows-1{
+    width: 100%;
+}
+
+.last-section{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+
+.last-section img{
+    width: 100%;
+    height: 18rem;
+}
+
+.last-section h4{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 25%;
+}
+
+.last-section p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+/* tab footer  */
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+
+
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin-left: 45%;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 80%;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 0;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    font-size: 0.75rem;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code for mobile view  */
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+
+
+   /* mobile navbar */
+
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .banner-page{
+        width: 100%;
+        height: 42rem;
+        background-position: center;
+        overflow: hidden;
+    }
+
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    
+    }
+    
+
+    /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(15%);
+    }
+  }
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+    .modal-body {
+        padding: 0;
+        
+    }
+    .modal-body ul
+    {
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        color: black;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar-brand{
+        width: 4.4375rem;
+        height: 4.13638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        background-color: rgba(195, 141, 88, 0.8);
+        z-index: 199;
+
+    }
+
+    .btn-link{
+        margin-left: 39%;
+        margin-bottom: 7%;
+        font-size: 1.7rem;
+    }
+    
+    .navbar-toggler-icon-1{
+        font-size: 1.7rem;
+    }
+
+
+    .nav-link{
+        font-size: 1.25rem;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+    .first-banner{
+        overflow: hidden;
+    }
+
+.banner-content{
+    width: 120%;
+}
+
+
+
+
+
+
+.banner-page{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+
+
+
+
+
+.rectangle{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    padding: 5%;
+    width: 21.3rem;
+    height: 7rem;
+}
+
+.rectangle h3{
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.second-section h3{
+    font-size: 1.5rem;
+    padding-top: 23%;
+}
+
+
+.second-section {
+    position: relative; /* Add this to make it a reference point for absolute positioning */
+}
+
+.card-d
+{
+    display: none;
+}
+
+.card {
+    border: none;
+    padding: 5%;
+    background: transparent;
+}
+
+
+/* CSS for navigation arrows */
+.slider-arrow {
+   display: none;
+}
+
+
+
+
+
+.title-div{
+    height: 3.625rem;
+    flex-shrink: 0;
+    background: #003049;
+}
+
+.card-title{
+    font-size: 0.95rem;
+    padding-top: 6%;
+    align-items: center;
+}
+
+.card p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 100%;
+    text-align: justify;
+    padding-top: 5%;
+}
+
+.Read-more{
+    width: 8.75rem;
+    height: 2.75rem;
+    font-size: 0.85rem;
+    margin-left: 29%;
+    margin-top: 3%;
+}
+
+
+
+.third-section{
+    width: 100%;
+    background: #D9D9D9;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 32rem;
+    flex-shrink: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+
+.sub-images-third-section-1, .sub-images-third-section-2{
+    display: none;
+}
+
+
+.row-content-1{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+    height: 11rem;
+
+}
+
+.first-div-row-1{
+    padding-bottom: 4%;
+    height: 11rem;
+}
+
+
+
+.third-section h4{
+    font-size: 1.25rem;
+}
+
+
+.third-section p{
+    font-size: 0.95rem;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.sub-images-third-section{
+    width: 100%;
+    height: 100%;
+    padding-right: 0 !important;
+    margin: auto;
+}
+
+
+.row-content-2{
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: 0;
+}
+
+.first-div-row-2{
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    height: 10rem;
+}
+
+
+.row-1-fourt-section{
+    height: 100%;
+    padding-bottom: 10%;
+}
+
+.fourth-section img{
+    width: 100%;
+
+}
+
+.fourth-section h3{
+    font-size: 2rem;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.fourth-section p{
+    font-size: 1rem;
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+
+.row-2-fourt-section{
+    display: none;
+}
+
+.contactUs-blue-banner{
+    background-size: 30%;
+
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+    padding-top: 9%;
+    
+
+}
+
+.contactUs-blue-banner h3{
+    font-size: 1.585rem;
+    width: 80%;
+}
+
+.contactUs-blue-banner button{
+    width: 7.5rem;
+    height: 2.9rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #780000;
+    font-family: Abril Fatface;
+    font-size: 0.925rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 5%;
+}
+
+
+.fifth-section h3{
+    font-size: 1.6rem;
+    padding-bottom: 5%;
+
+}
+
+.fifth-section p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 0.925rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.image-banner{
+    
+    text-align: center;
+    padding: 4% 15%;
+}
+
+.image-banner img{
+    width: 100%;
+
+}
+
+.last-section img{
+    width: 100%;
+
+}
+
+.last-section .column{
+    margin-top: 10%;
+}
+
+.last-section h4{
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.last-section p{
+    font-size: 0.925rem;
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile footer  */
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin: auto;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    text-align: center;
+    font-size: 0.925rem;
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 2%;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--Basic-white, #FAFAFA);
+    font-family: Poppins;
+    font-size: 0.775rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.625rem; /* 166.667% */
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

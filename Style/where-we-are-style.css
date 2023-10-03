@@ -1,0 +1,1232 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+
+
+.banner-page {
+    background-image: url("../Images/Rectangle\ 354.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+ 
+ }
+/* menu bar and navbar  */
+
+
+
+.navbar{
+    padding: 0% 10%;
+
+}
+
+.navbar-brand{
+    width: 6%;
+}
+
+.MenuBar-body{
+    width: 25.6875rem;
+    height: 48rem;
+    background-color: white;
+
+}
+
+  /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(90%);
+    }
+  }
+
+  /* Apply the animation to the modal */
+  .modal.slide-right .modal-dialog {    
+    animation: slideInRight 0.5s forwards;
+  }
+
+.modal-content{
+    /* width: 100%; */
+    width: 25.6875rem;
+    height: 43rem;
+    align-content: center;
+    text-align: center;
+    margin-left: 7rem !important;
+
+}
+
+
+.toggle-item{
+    align-items: center;
+    width: 100%;
+    margin-top: 4%;
+    text-decoration: none;
+    padding-right: 5%;
+    
+}
+
+.items-blue{
+    width: 16.1875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #003049;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.items-red{
+    width: 15.875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.toggle-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5%;
+    padding: 5%;
+}                                              
+.link-toggle{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link-toggle:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.navbar{
+    padding-top: 3%;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+
+
+
+.nav-link{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.content{
+    margin: auto;
+}
+
+.content h3{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 5.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin: auto;
+    text-align: center;
+}
+
+
+.content p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.875rem */
+
+    padding-top: 2%;
+    text-align: justify;
+}
+
+.content span
+{
+    color: #780000;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+.center-banner{
+    width: 100%;
+    height: 48.8125rem;
+    flex-shrink: 0;
+    background-image: url("../Images/Rectangle\ 120.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+}
+
+.content-2 h3{
+    color: #780000;
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+    
+}
+
+.content-2 p{
+    color: #003049;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 3%;
+}
+
+
+
+.regions{
+    padding: 0% 3%;
+}
+
+.region-row-1{
+    margin-top: 7%;
+}
+
+.card-region-1{
+    border-radius: 3.925rem;
+    background: #780000;
+}
+.card-region-2{
+    border-radius: 3.925rem;
+    background: #003049;
+}
+
+
+.card-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.card-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 60%;
+    margin: auto;
+}
+
+.fa-ellipsis{
+    width: 2.56244rem;
+    height: 0.64081rem;
+    flex-shrink: 0;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-left: 45%;
+}
+
+.card-region-row-2{
+    border-radius: 2.25rem;
+    background: #003049;
+    flex-shrink: 0;
+}
+
+.card-header{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.region-row-2{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 50%;
+    padding: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 8rem;
+
+    margin-top: 6%;
+}
+.stay-updated{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 66.667% */
+    letter-spacing: 0.04319rem;
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 4%;
+}
+
+.footer{
+    background: #003049;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-logo{
+    flex-shrink: 0;
+    padding-top: 5%;
+    margin-left: 40%;
+}
+
+.f-logo{
+    width: 25%;
+}
+
+
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 96% */
+    letter-spacing: 0.03rem;
+    padding-top: 5%;
+}
+
+.s-name{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 8%;
+    width: 100%;
+}
+.footer-heading{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 133.333% */
+    letter-spacing: 0.02163rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Cabin;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+.text-footer:hover{
+    color: var(--basic-white, #FAFAFA);
+   
+}
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+
+.privacy{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+.social-media-buttons{
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* for tablets  */
+
+
+    .navbar-toggler-icon-1{
+        font-size: 1.5rem;
+    }
+    
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        padding: 0;
+
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        background-color: white;
+        
+    
+    }
+    
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+   
+    .modal-body ul{
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .navbar-brand{
+        width: 5.9375rem;
+        height: 5.53638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+    }
+    
+
+    .nav-link{
+        color: #003049;
+        font-size: 0.7973rem;
+        align-items: center;
+       
+    }
+
+    .nav-link .active{
+        color: #ffffff ;
+        font-size: 0.7973rem;
+       
+    }
+
+   
+.banner-page {
+    background-position: center;
+    background-size: 150%;
+    width: 100%;
+    height: 40rem;
+    
+ 
+ }
+
+
+
+
+
+
+
+
+    .content{
+        margin: auto;
+    }
+    
+    .content h3{
+        font-size: 2.75rem;
+    }
+    
+    
+    .content p{
+        font-size: 0.975rem;
+    }
+    
+    .content span
+    {
+        font-size: 0.975rem;
+    }
+    
+    
+    .center-banner{
+        width: 100%;
+        height: 20.8125rem;
+        background-size: 110%;
+        margin-top: 5%;
+    }
+    
+    .content-2 h3{
+        font-size: 2rem;
+    }
+    
+    .content-2 p{
+        font-size: 1.1rem;
+    }
+    
+    
+    
+    .regions{
+        padding: 0% 3%;
+    }
+    
+    .region-row-1{
+        margin-top: 7%;
+    }
+    
+    .card-region-1{
+        border-radius: 3.925rem;
+        background: #780000;
+    }
+    
+    .card-region-2{
+        border-radius: 3.925rem;
+        background: #003049;
+    }
+    
+    
+    .card-title{
+        color: #FFF;
+        text-align: center;
+        font-family: Abril Fatface;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    
+    .card-text{
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    
+        width: 90%;
+        margin: auto;
+    }
+    
+    .fa-ellipsis{
+        width: 2.56244rem;
+        height: 0.64081rem;
+        flex-shrink: 0;
+        font-size: 3.5rem;
+        text-align: center;
+        padding-left: 40%;
+    }
+    
+    .card-region-row-2{
+        border-radius: 2.25rem;
+        background: #003049;
+        flex-shrink: 0;
+    }
+    
+    .card-header{
+        font-size: 1.5rem;
+    }
+    .region-row-2{
+        font-size: 0.75rem;
+        width: 90%;
+        padding: 5%;
+    }
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+/* tab footer  */
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+
+
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin-left: 45%;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 80%;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 0;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    font-size: 0.75rem;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code for mobile view  */
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+
+
+   /* mobile navbar */
+
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .banner-page{
+        width: 100%;
+        height: 42rem;
+        background-position: center;
+        overflow: hidden;
+    }
+
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    
+    }
+    
+
+    /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(15%);
+    }
+  }
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+    .modal-body {
+        padding: 0;
+        
+    }
+    .modal-body ul
+    {
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        color: black;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar-brand{
+        width: 4.4375rem;
+        height: 4.13638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        background-color: rgba(211, 208, 205, 0.88);
+        z-index: 199;
+
+    }
+
+    .btn-link{
+        margin-left: 39%;
+        margin-bottom: 7%;
+    }
+    
+    .navbar-toggler-icon-1{
+        font-size: 1.7rem;
+    }
+
+
+    .nav-link{
+        font-size: 0.7973rem;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+    .first-banner{
+        overflow: hidden;
+    }
+
+.banner-content{
+    width: 120%;
+}
+
+
+
+
+
+
+
+
+
+
+.banner-page {
+    background-position: center;
+    background-size: 370%;
+    width: 100%;
+    height: 100vh;
+ 
+ }
+
+
+
+
+
+
+
+
+    .content{
+        margin: auto;
+        margin-bottom: 15%;
+    }
+    
+    .content h3{
+        font-size: 1.75rem;
+    }
+    
+    
+    .content p{
+        font-size: 0.875rem;
+    }
+    
+    .content span
+    {
+        font-size: 0.875rem;
+    }
+    
+    
+    .center-banner{
+        width: 100%;
+        height: 10.8125rem;
+        background-size: 120%;
+        background-position: center;
+        margin-top: 5%;
+    }
+    
+    .content-2 h3{
+        font-size: 1.5rem;
+    }
+    
+    .content-2 p{
+        font-size: 0.975rem;
+        text-align: justify;
+    }
+    
+    
+    
+    .regions{
+        padding: 0% 3%;
+        overflow: hidden;
+    }
+    
+    .region-row-1{
+        margin-top: 7%;
+    }
+    
+    .card-region-1{
+        border-radius: 3.925rem;
+        background: #780000;
+        margin-top: 10%;
+    }
+    
+    .card-region-2{
+        border-radius: 3.925rem;
+        background: #003049;
+        margin-top: 10%;
+
+    }
+    
+    
+    .card-title{
+        color: #FFF;
+        text-align: center;
+        font-family: Abril Fatface;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    
+    .card-text{
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    
+        width: 90%;
+        margin: auto;
+    }
+    
+    .fa-ellipsis{
+        width: 2.56244rem;
+        height: 0.64081rem;
+        flex-shrink: 0;
+        font-size: 3.5rem;
+        text-align: center;
+        padding-left: 40%;
+    }
+    
+    .card-region-row-2{
+        border-radius: 2.25rem;
+        background: #003049;
+        flex-shrink: 0;
+    }
+    
+    .card-header{
+        font-size: 1.5rem;
+    }
+    .region-row-2{
+        font-size: 0.75rem;
+        width: 90%;
+        padding: 5%;
+    }
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+/* mobile footer  */
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin: auto;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    text-align: center;
+    font-size: 0.925rem;
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 2%;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--Basic-white, #FAFAFA);
+    font-family: Poppins;
+    font-size: 0.775rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.625rem; /* 166.667% */
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

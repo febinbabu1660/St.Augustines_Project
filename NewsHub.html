@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsHub</title>
+  <link rel="icon" type="image/svg" href="../Images/Frame-logo.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@500&family=PT+Serif:wght@700&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Raleway:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cabin&family=Montserrat:wght@500&family=PT+Serif:wght@700&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
+
+
+  <link rel="stylesheet" href="Style/NewsHub.css">
+</head>
+
+<body>
+
+  <div class="banner-page image-fluid image-fluid image-responsive">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xsm">
+        <img src="Images/Frame-logo.svg" alt="" class="navbar-brand">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+          <i class="fa-sharp fa-solid fa-bars" style="color: #ffffff; font-size: 1.55rem; vertical-align: middle;"></i>
+
+
+        </button>
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="HomePage.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="NewsHub.html">Newshub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="History.html">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ContactUs.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <!-- <button class="fas fa-bars"></button> -->
+              <button class="btn btn-link text-white" data-toggle="modal" data-target="#exampleModal">
+
+                <i class="fas fa-bars navbar-toggler-icon-1"></i>
+
+              </button>
+
+
+              <!-- Modal -->
+              <div class="modal fade slide-right" id="exampleModal" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                  <div class="modal-content mt-md-10 ml-md-1 mt-lg-10 ml-lg-1 mt-sm-5 ml-sm-1">
+                    <div class="modal-body">
+                      <ul>
+                        <li class="toggle-item">
+                          <div class="items-blue">
+                            <p class="toggle-link History"><a class="link-toggle" href="History.html">History</a></p>
+                          </div>
+                        </li>
+                        <li class="toggle-item">
+                          <div class="items-red">
+                            <p class="toggle-link Vocation"><a class="link-toggle" href="Vocations.html">Vocation</a>
+                            </p>
+                          </div>
+                        </li>
+                        <li class="toggle-item">
+                          <div class="items-blue">
+                            <p class="toggle-link Spirituality"><a class="link-toggle"
+                                href="Spirituality.html">Spirituality</a></p>
+                          </div>
+                        </li>
+                        <li class="toggle-item">
+                          <div class="items-red">
+                            <p class="toggle-link Newshub"><a class="link-toggle" href="NewsHub.html">Newshub</a></p>
+                          </div>
+                        </li>
+                        <li class="toggle-item">
+                          <div class="items-blue">
+                            <p class="toggle-link Contact-us"><a class="link-toggle" href="ContactUs.html">Contact
+                                us</a>
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="rectangle">
+      <h3>Welcome to The Augustinians NewsHub</h3>
+    </div>
+  </div>
+
+  <div class="second-section">
+    <h3>Lorem ipsum dolor sit</h3>
+    <div class="slider-arrow prev"><i class="fa-solid fa-chevron-left"></i></div>
+    <div class="slider-arrow next"><i class="fa-solid fa-chevron-right"></i></div>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+
+        <div class="card-set active-card-set ">
+          <div class="col-md-4 col-lg-4 col-sm-4 ">
+            <div class="card">
+              <img src="Images/Rectangle 296.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-div">
+                  <h5 class="card-title">Class aptent taciti </h5>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sitgh
+                  amet, consectetur adyj
+                  ipiscing elit. Integer thf
+                  nec odio.Praesentr guil
+                  libero. Sed cursus ante
+                  dapibus diam. Sed nisi.
+                  Nulla quis sem atnibh.</p>
+                <button class="Read-more">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-4 card-d">
+            <div class="card">
+              <img src="Images/Rectangle 315.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-div">
+                  <h5 class="card-title">Class aptent taciti </h5>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sitgh
+                  amet, consectetur adyj
+                  ipiscing elit. Integer thf
+                  nec odio.Praesentr guil
+                  libero. Sed cursus ante
+                  dapibus diam. Sed nisi.
+                  Nulla quis sem atnibh.</p>
+                <button class="Read-more">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-4 card-d">
+            <div class="card">
+              <img src="Images/Rectangle 316.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-div">
+                  <h5 class="card-title">Class aptent taciti </h5>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sitgh
+                  amet, consectetur adyj
+                  ipiscing elit. Integer thf
+                  nec odio.Praesentr guil
+                  libero. Sed cursus ante
+                  dapibus diam. Sed nisi.
+                  Nulla quis sem atnibh.</p>
+                <button class="Read-more">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-set">
+          <div class="col-md-4 col-lg-4 col-sm-4 card-d">
+            <div class="card">
+              <img src="Images/Rectangle 315.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-div">
+                  <h5 class="card-title">Class aptent taciti </h5>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sitgh
+                  amet, consectetur adyj
+                  ipiscing elit. Integer thf
+                  nec odio.Praesentr guil
+                  libero. Sed cursus ante
+                  dapibus diam. Sed nisi.
+                  Nulla quis sem atnibh.</p>
+                <button class="Read-more">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-4 card-d">
+            <div class="card">
+              <img src="Images/Rectangle 316.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-div">
+                  <h5 class="card-title">Class aptent taciti </h5>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sitgh
+                  amet, consectetur adyj
+                  ipiscing elit. Integer thf
+                  nec odio.Praesentr guil
+                  libero. Sed cursus ante
+                  dapibus diam. Sed nisi.
+                  Nulla quis sem atnibh.</p>
+                <button class="Read-more">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-4 card-d">
+            <div class="card">
+              <img src="Images/Rectangle 296.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-div">
+                  <h5 class="card-title">Class aptent taciti </h5>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sitgh
+                  amet, consectetur adyj
+                  ipiscing elit. Integer thf
+                  nec odio.Praesentr guil
+                  libero. Sed cursus ante
+                  dapibus diam. Sed nisi.
+                  Nulla quis sem atnibh.</p>
+                <button class="Read-more">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card-set">
+          <div class="col-md-4 col-lg-4 col-sm-4 card-d">
+            <div class="card">
+              <img src="Images/Rectangle 316.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-div">
+                  <h5 class="card-title">Class aptent taciti </h5>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sitgh
+                  amet, consectetur adyj
+                  ipiscing elit. Integer thf
+                  nec odio.Praesentr guil
+                  libero. Sed cursus ante
+                  dapibus diam. Sed nisi.
+                  Nulla quis sem atnibh.</p>
+                <button class="Read-more">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-4 card-d">
+            <div class="card">
+              <img src="Images/Rectangle 296.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-div">
+                  <h5 class="card-title">Class aptent taciti </h5>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sitgh
+                  amet, consectetur adyj
+                  ipiscing elit. Integer thf
+                  nec odio.Praesentr guil
+                  libero. Sed cursus ante
+                  dapibus diam. Sed nisi.
+                  Nulla quis sem atnibh.</p>
+                <button class="Read-more">Read More</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-4 card-d">
+            <div class="card">
+              <img src="Images/Rectangle 315.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="title-div">
+                  <h5 class="card-title">Class aptent taciti </h5>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sitgh
+                  amet, consectetur adyj
+                  ipiscing elit. Integer thf
+                  nec odio.Praesentr guil
+                  libero. Sed cursus ante
+                  dapibus diam. Sed nisi.
+                  Nulla quis sem atnibh.</p>
+                <button class="Read-more">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="third-section">
+
+      <div class="row row-content-1 mt-5 ">
+        <div class="col-md-5 col-lg-6 col-sm-6 first-div-row-1">
+          <h4>Nulla facilisi. Integer lacinia</h4>
+          <p>Sollicitudin massa. Cras metus. Sed aliquet
+            risus a tortor. Integer id quam. Morbi mi.
+            Quisque nisl felis, venenatis tristique.</p>
+        </div>
+        <div class="col-md-6 col-lg-3 col-sm-3 sub-images-third-section-1 ">
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 sub-images-third-section-2">
+        </div>
+      </div>
+
+      <div class="row row-content-2 mt-5">
+        <div class="col-md-5 col-lg-6 col-sm-6 first-div-row-2">
+          <h4>Nulla facilisi. Integer lacinia</h4>
+          <p>Sollicitudin massa. Cras metus. Sed aliquet
+            risus a tortor. Integer id quam. Morbi mi.
+            Quisque nisl felis, venenatis tristique.</p>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 sub-images-third-section-2">
+        </div>
+        <div class="col-md-6 col-lg-3 col-sm-3 sub-images-third-section-1">
+        </div>
+      </div>
+
+  </div>
+
+  </div>
+  <div class="container fourth-section mt-5">
+    <div class="row row-1-fourt-section mt-5">
+      <div class="col-md-6 col-lg-6 col-sm-6">
+        <img src="Images/Rectangle 346.svg" alt="">
+      </div>
+      <div class="col-md-6 col-lg-6 col-sm-6">
+        <h3>Quisque cursus, metus vitae</h3>
+        <p>Integer lacinia sollicitudin massa. Cras metus.
+          Sed aliquet risus a tortor. Integer id quam. Mor
+          bi mi. Quisque nisl felis, venenatis tristique, dig
+          nissim in, ultrices sit amet, augue. Proin sodales
+          libero eget ante. Nulla quam. Aenean laoreet.
+
+        </p>
+        <p>Integer lacinia sollicitudin massa. Cras metus.
+          Sed aliquet risus a tortor. Integer id quam. Mor
+          bi mi. Quisque nisl felis, venenatis tristique, dig
+          nissim in, ultrices sit amet, augue. Proin sodales
+          libero eget ante. Nulla quam. Aenean laoreet.
+
+        </p>
+      </div>
+    </div>
+    <div class="row row-2-fourt-section mt-5">
+      <div class="col-md-6 col-lg-6 col-sm-6 ">
+        <h3>Quisque cursus, metus vitae</h3>
+        <p>Integer lacinia sollicitudin massa. Cras metus.
+          Sed aliquet risus a tortor. Integer id quam. Mor
+          bi mi. Quisque nisl felis, venenatis tristique, dig
+          nissim in, ultrices sit amet, augue. Proin sodales
+          libero eget ante. Nulla quam. Aenean laoreet.
+
+        </p>
+        <p>Integer lacinia sollicitudin massa. Cras metus.
+          Sed aliquet risus a tortor. Integer id quam. Mor
+          bi mi. Quisque nisl felis, venenatis tristique, dig
+          nissim in, ultrices sit amet, augue. Proin sodales
+          libero eget ante. Nulla quam. Aenean laoreet.
+
+        </p>
+      </div>
+      <div class="col-md-6 col-lg-6 col-sm-6">
+        <img src="Images/Rectangle 346.svg" alt="">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="contactUs-blue-banner">
+    <div class="container">
+      <h3>
+        Class aptent taciti sociosqu ad
+        litora torquent per conubia
+      </h3>
+      <button>Contact Us</button>
+    </div>
+  </div>
+
+  <div class="fifth-section">
+    <div class="container">
+      <h3>
+        Curabitur tortor. Pellentesque nibh
+      </h3>
+
+      <p>The monastic tradition has its earliest traces soon after Augustine's conversion in
+        Milan, when he and some friends returned to his native Tagaste, gave away their
+        possessions, and began a life of prayer and study as "servants of God".
+      </p>
+      <p>
+        You gather like-minded people to dwell together…We stayed together, and made
+        a holy agreement to live together in the future. In search of a place where we
+        could best serve you, we made arrangements to return as a group to Africa.
+        (Confessions IX, 8)
+      </p>
+      <div class="image-banner">
+        <img src="Images/Rectangle 349.svg" alt="">
+      </div>
+
+      <p>The monastic tradition has its earliest traces soon after Augustine's conversion in
+        Milan, when he and some friends returned to his native Tagaste, gave away their
+        possessions, and began a life of prayer and study as "servants of God".
+      </p>
+      <p>
+        You gather like-minded people to dwell together…We stayed together, and made
+        a holy agreement to live together in the future. In search of a place where we
+        could best serve you, we made arrangements to return as a group to Africa.
+        (Confessions IX, 8)
+
+
+
+      </p>
+
+
+
+    </div>
+  </div>
+
+
+
+  <div class="last-section pb-5 mb-5">
+    <div class="container-fluid grid-pics">
+
+      <div class="row grid-rows-1">
+        <div class="col-md-3 col-lg-3 col-sm-3">
+          <img src="Images/Rectangle 350.svg" alt="">
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 pt-4">
+          <h4>Sed lacinia
+          </h4>
+          <p>urna non tincidunt
+            mattis, tortorneque
+            adipiscing diaa curs
+            us ipsum antequis
+            turpis. Nulla facilisi.</p>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 column">
+          <img src="Images/Rectangle 352.svg" alt="">
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 pt-4">
+          <h4>Sed lacinia
+          </h4>
+          <p>urna non tincidunt
+            mattis, tortorneque
+            adipiscing diaa curs
+            us ipsum antequis
+            turpis. Nulla facilisi.</p>
+        </div>
+      </div>
+
+
+      <div class="row mt-5 mt-md-2 grid-rows-2">
+        <div class="col-md-3 col-lg-3 col-sm-3">
+          <img src="Images/Rectangle 352.svg" alt="">
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 pt-4">
+          <h4>Sed lacinia
+          </h4>
+          <p>urna non tincidunt
+            mattis, tortorneque
+            adipiscing diaa curs
+            us ipsum antequis
+            turpis. Nulla facilisi.</p>
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 column">
+          <img src="Images/Rectangle 350.svg" alt="">
+        </div>
+        <div class="col-md-3 col-lg-3 col-sm-3 pt-4">
+          <h4>Sed lacinia
+          </h4>
+          <p>urna non tincidunt
+            mattis, tortorneque
+            adipiscing diaa curs
+            us ipsum antequis
+            turpis. Nulla facilisi.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container-fluid stay-upto-date">
+    <div class="container update">
+      <p class="stay-updated">Stay Up To Date!</p>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="footer-logo">
+          <img src="Images/Frame-logo.svg" alt="" class="f-logo">
+        </div>
+        <div class="sentence">
+          <p class="sentence-1">
+            Seek not to understand that you may believe, but believe that you may understand.
+          </p>
+          <p class="s-name">
+            Saint Augustine
+          </p>
+        </div>
+
+        <div class="row footer-row">
+
+          <div class="col-6 col-md-3">
+            <h5 class="footer-heading">The Augustinians</h5>
+            <ul class="list-unstyled text-small">
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+
+            </ul>
+          </div>
+          <div class="col-6 col-md-3">
+            <h5 class="footer-heading">The Augustinians</h5>
+            <ul class="list-unstyled text-small">
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+
+            </ul>
+          </div>
+          <div class="col-6 col-md-3">
+            <h5 class="footer-heading">The Augustinians</h5>
+            <ul class="list-unstyled text-small">
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+
+            </ul>
+          </div>
+          <div class="col-6 col-md-3">
+            <h5 class="footer-heading">The Augustinians</h5>
+            <ul class="list-unstyled text-small">
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+              <li class="footer-li-text mt-3"><a class="text-footer" href="#">Lorem Ipsum</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="row text-center last-line-footer">
+          <div class="col-md-4 box">
+            <span class="copyright quick-links"><i class="fa-sharp fa-regular fa-copyright"></i>
+              <script>document.write(new Date().getFullYear())</script> - The Order Of Saint Augustine
+            </span>
+          </div>
+          <div class="col-md-4 box">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item social-media-buttons">
+                <a href="#">
+                  <i class="fa-brands fa-square-facebook" style="color: #780000;"></i>
+                </a>
+              </li>
+              <li class="list-inline-item social-media-buttons">
+                <a href="#">
+                  <i class="fa-brands fa-square-instagram" style="color: #780000;"></i>
+                </a>
+              </li>
+              <li class="list-inline-item social-media-buttons">
+                <a href="#">
+                  <i class="fa-brands fa-square-twitter" style="color: #780000;"></i>
+                </a>
+              </li>
+              <li class="list-inline-item social-media-buttons">
+                <a href="#">
+                  <i class="fa-brands fa-linkedin" style="color: #780000;"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 box">
+            <ul class="list-inline quick-links">
+              <li class="list-inline-item">
+                <p class="privacy">Privacy Policy | Terms of use</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    const cardSets = document.querySelectorAll('.card-set');
+    const prevButton = document.querySelector('.slider-arrow.prev');
+    const nextButton = document.querySelector('.slider-arrow.next');
+
+    let currentIndex = 0;
+
+    function showCardSet(index) {
+      cardSets.forEach((cardSet, i) => {
+        if (i === index) {
+          cardSet.classList.add('active-card-set');
+        } else {
+          cardSet.classList.remove('active-card-set');
+        }
+      });
+    }
+
+    prevButton.addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + cardSets.length) % cardSets.length;
+      showCardSet(currentIndex);
+    });
+
+    nextButton.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % cardSets.length;
+      showCardSet(currentIndex);
+    });
+
+    // Show the initial card set (1st set)
+    showCardSet(currentIndex);
+  </script>
+
+
+
+
+
+</body>
+
+</html>

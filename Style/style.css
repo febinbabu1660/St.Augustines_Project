@@ -1,0 +1,2208 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* menu bar and navbar  */
+
+.MenuBar-body{
+    width: 25.6875rem;
+    height: 48rem;
+    background-color: white;
+
+}
+
+  /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(70%);
+    }
+  }
+
+  /* Apply the animation to the modal */
+  .modal.slide-right .modal-dialog {    
+    animation: slideInRight 0.5s forwards;
+  }
+
+.modal-content{
+    /* width: 100%; */
+    width: 25.6875rem;
+    height: 43rem;
+    align-content: center;
+    text-align: center;
+    margin-left: 7rem !important;
+
+}
+
+
+.toggle-item{
+    align-items: center;
+    width: 100%;
+    margin-top: 4%;
+    text-decoration: none;
+    padding-right: 5%;
+    
+}
+
+.items-blue{
+    width: 16.1875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #003049;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.items-red{
+    width: 15.875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.toggle-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5%;
+    padding: 5%;
+}                                              
+.link-toggle{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link-toggle:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.banner-page{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)), url("../Images/Rectangle\ 186.svg") ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.navbar-toggler-icon-1{
+    font-size: 2rem;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: white;
+}
+
+
+
+
+.nav-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.45rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.nav-link:active{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 1.45rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+/* contents of banner page  */
+
+.wrapper{
+    height: 25rem;
+}
+
+
+
+.banner-content{
+    margin-top: 5%;
+    padding-top: 10%;
+    height: 100%;
+}
+
+.c1{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 5.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    z-index: 0;
+
+}
+
+.c2{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 5.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.875rem; /* 14.737% */
+    text-transform: capitalize;
+    width: 70%;
+    padding-top: 3%;
+    text-align: center;
+    margin: auto;
+    z-index: 0;
+}
+.c3{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 70%;
+    padding-top: 4%;
+    text-align: center;
+    margin: auto;
+    z-index: 0;
+}
+
+
+
+
+
+.community-wrapper{
+    width: 100%;
+    height: 100%;
+    color: #FAFAFA;
+}
+
+
+.content{
+    margin-top: 13%;
+    width: 100%;
+    align-items: center;
+}
+.c-heading{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+        
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+}
+
+.c-content-1{
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    text-align: justify;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.c-content-2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    text-align: justify;
+    margin: auto;
+    padding-top: 1%;
+}
+
+
+.rectangle{
+    z-index: 10;
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 65%; */
+    padding: 1.5%;
+
+    width: 71.3125rem;
+    height: 19.125rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    background: #FFF;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.vector-img{
+    width: 3.8125rem;
+    height: 3.80388rem;
+    flex-shrink: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle-card{
+    border: none;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle-card-title{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+
+
+}
+.rectangle-card-text{
+    color: #003049;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    width: 80%;
+    padding-left: 15%;
+}
+
+
+
+.rossary-img-1{
+   background-image: url("../Images/Rectangle\ 165.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2.6875rem;
+}
+
+.rossary-img-2{
+    background-image: url("../Images/Rectangle\ 180.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2.6875rem;
+   
+    
+}
+
+
+.vision{
+    width: 100%;
+    border-radius: 2.6875rem;
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+    margin-top: 9%;
+    height: 24rem;
+}
+
+.vision-content{
+    padding-top: 6%;
+    padding-left: 6%;
+    height: max-content;
+}
+
+.vision-heading{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 60%;
+}
+.vision-description{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 86%;
+    text-align: justify;
+}
+
+
+
+
+.mission{
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 2.8875rem;
+    background: #003049;
+    margin-top: 9%;
+    height: 24rem;
+}
+
+.mission-content{
+    padding-top: 6%;
+    padding-left: 6%;
+}
+
+.mission-heading{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 60%;
+}   
+.mission-description{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 86%;
+    text-align: justify;
+}
+
+.contactUs-banner{
+    background: #780000;
+    width: 100%;
+    height: 32.625rem;
+    flex-shrink: 0;
+
+    background-image: url("../Images/frame-left.png"), url("../Images/frame-right.png");
+    background-position: left, right;
+    background-repeat: no-repeat,no-repeat;
+
+   
+
+}
+
+.contactUs-banner-h3{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.contactUs-banner-p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+
+    padding-bottom: 3%;
+}
+
+.contactUs-banner-button{
+    width: 16.1875rem;
+    height: 4.5rem;
+    flex-shrink: 0;
+    border-radius: 1.375rem;
+    background: #D9D9D9;
+    
+    color: #003049;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 80% */
+    letter-spacing: 0.036rem;
+    margin-left: 40%;
+}
+
+
+.saint{
+    width: 100%;
+    height: 55rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.saint-img{
+    background-image: url("../Images/Rectangle\ 412.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 55rem;
+}
+.saint-name{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+    padding-left: 2%;
+    padding-top: 20%;
+}
+
+.saint-prayer{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.6625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+    text-align: justify;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.mary{
+    background: #EAECEB;
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.mary-heading{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.mary-description{
+    color: #003049;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.mary-cards{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    width: 100%;
+    margin: auto;
+}
+
+.cards{
+    width: 100%;
+    padding-top: 5%;
+
+}
+
+.cards-col{
+    width: 33%;
+}
+
+.mary-card-title{
+    color: #003049;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 100%;
+}
+.mary-card-text{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+
+.Bible-image{
+    width: 100%;
+    padding-top: 5px;
+}
+
+.church-heading{
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.church-heading-1{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+.crusol{
+    width: 70%;
+    margin: auto;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+.writing-headings{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: auto;
+    width: 70%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.writing-content{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    text-align: justify;
+    padding-top: 3%;
+    padding-bottom: 8%;
+}
+
+.blue-banner{
+    background: #003049;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../Images/frame-left.png"), url("../Images/frame-right.png");
+    background-position: left, right;
+    background-repeat: no-repeat,no-repeat;
+
+
+}
+
+
+
+
+/* =======================================
+        Slider
+        ====================================*/
+         .slick-slider button {
+            position: absolute;
+            top: 32%;
+            outline: "none";
+            border: none;
+            width: 1px;
+            height: 1px;
+            border-radius: 35px;
+            background-color: rgb(255, 255, 255);
+            color: white;
+            z-index: 99;
+        }
+        
+        .slick-slider .slick-prev {
+            left: -190px;
+            font-size: 0;
+        }
+        
+        .slick-slider .slick-prev::before {
+            content: url("../Images/Vector-arrow-left.svg");
+            line-height: 1;
+            font-size: 2.5rem;
+            margin-left: -25%;
+
+        }
+        
+        
+        
+        .slick-slider .slick-next {
+            right: -100px;
+            font-size: 0;
+        }
+        
+        .slick-slider .slick-next::after {
+            content: url("../Images/Vector-arrow-right.svg");
+            line-height: 1;
+            font-size: 2.5rem;
+            margin-left: -20%;
+        }
+        
+        
+      
+        .slick-slider img{
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        
+        
+        
+        .slick-slide {
+            padding:40px 0;
+            position: relative;
+            height:auto !important;
+            opacity: 0.5;
+            transition: all 900ms ease;
+        }
+        
+        .slick-current {
+            opacity: 1;
+            transform: scale(1.2);
+            z-index: 99;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        } 
+        
+        .slick-slide .xyz{
+            opacity: 0;
+        }
+        
+        .slick-current .xyz{
+            opacity: 1;
+        }
+    
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.saint-words{
+    width: 100%;
+    height: 25rem;
+    margin: auto;
+}
+.blue-banner-content{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.saint-name-1{
+    color: #FFF;
+    text-align: right;
+    font-family: Abril Fatface;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 75%;
+}
+
+
+
+
+
+
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 8rem;
+}
+.stay-updated{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 66.667% */
+    letter-spacing: 0.04319rem;
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 4%;
+}
+
+.footer{
+    background: #003049;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-logo{
+    flex-shrink: 0;
+    padding-top: 5%;
+    margin-left: 40%;
+}
+
+.f-logo{
+    width: 25%;
+}
+
+
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 96% */
+    letter-spacing: 0.03rem;
+    padding-top: 5%;
+}
+
+.s-name{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 8%;
+    width: 100%;
+}
+.footer-heading{
+    color: #D3D3D3;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 133.333% */
+    letter-spacing: 0.02163rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Cabin;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+.text-footer:hover{
+    color: var(--basic-white, #FAFAFA);
+   
+}
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+
+.privacy{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+.social-media-buttons{
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* for tablets  */
+
+
+
+
+    .banner-page{
+        width: 100%;
+        height: 29.9375rem;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .navbar-toggler-icon-1{
+        font-size: 1.5rem;
+    }
+    
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        padding: 0;
+
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        background-color: white;
+        
+    
+    }
+    
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+   
+    .modal-body ul{
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .navbar-brand{
+        width: 4.9375rem;
+        height: 4.53638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+    }
+    
+
+    .nav-link{
+        color: #ffffff;
+        font-size: 0.7973rem;
+       
+    }
+
+    .nav-link .active{
+        color: #ffffff ;
+        font-size: 0.7973rem;
+       
+    }
+
+    .c1{
+        font-size: 3.125rem;
+        
+    }
+    
+    .c2{
+        font-size: 3.125rem;
+        width: 70%;
+        padding-top: 2%;
+       
+    }
+    .c3{
+        font-size: 1.125rem;
+        width: 70%;
+        padding-top: 3%;
+       
+    }
+    
+    
+
+
+    .rectangle{
+        z-index: 10;
+        position: absolute;
+        left: 9%;
+        top: 35%;
+        width: 41.3125rem;
+        height: 11.125rem;
+        border-radius: 2rem;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    
+    
+    .vector-img{
+        width: 30%;
+    }
+    
+    .rectangle-card{
+        border: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0;
+        background: transparent;
+        
+    }
+    
+    .rectangle-card-title{
+    font-size: 1.25rem;
+    }
+
+    .rectangle-card-text{
+        font-size: 0.5625rem;
+        text-align: center;
+        width: 8.0625rem;
+        padding-left: 5%;
+        padding-bottom: 7%;
+    }
+    .c-heading{
+        font-size: 2.5rem;
+        margin-top: 15%;
+    }
+    
+    .c-content-1, .c-content-2{
+        color: #003049;
+        font-family: Poppins;
+        font-size: 0.8125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 41.3125rem;
+    }
+
+    
+
+.vision{
+    border-radius: 2.6875rem;
+    margin-top: 9%;
+    height: 13.925rem;
+}
+
+.vision-content{
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+.vision-heading{
+    font-size: 1.875rem;
+    width: 80%;
+    padding-left: 10%;
+}
+.vision-description{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 10%;
+    width: 90%;
+}
+
+
+.rossary-img-1{
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+}
+
+.rossary-img-2{
+    background-size: 100%;
+    margin: 0;
+}
+
+
+
+
+.mission{
+    margin-top: 6%;
+    height: 13.525rem;
+}
+
+.mission-content{
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+.mission-heading{
+    font-size: 1.875rem;
+    padding-left: 5%;
+}   
+.mission-description{
+    font-size: 0.875rem;
+    margin-left: 5%;
+}
+
+
+
+.contactUs-banner{
+    width: 100%;
+height: 21.75rem;
+padding-top: 0;
+background-size: 15%,15%;
+}
+
+
+.contactUs-banner-h3{
+    font-size: 1.925rem;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.contactUs-banner-p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.95rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+
+.contactUs-banner-button{
+    width: 7.625rem;
+    height: 2.6875rem;
+    flex-shrink: 0;
+    border-radius: 0.96875rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #003049;
+    text-align: center;
+    font-size: 0.925rem;
+    line-height: 1.5rem; /* 80% */
+    letter-spacing: 0.036rem;
+}
+
+
+
+.saint{
+    height: 21.55rem;
+}
+
+.saint-img{
+    background-size: 100%;
+    height: 21.4rem;
+    flex-shrink: 0;
+
+}
+.saint-name{
+    font-size: 1.875rem;
+    padding-left: 2%;
+    padding-top: 10%;
+}
+
+.saint-prayer{
+    font-size: 0.9375rem;
+    padding-left: 2%;
+    padding-top: 3%;
+    width: 100%;
+}
+
+
+.mary{
+    background: #EAECEB;
+    width: 100%;
+    height: 100%;
+}
+.mary-heading{
+    font-size: 2.1875rem;
+    width: 100%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.mary-description{
+    font-size: 0.9375rem;
+    width: 100%;
+    padding-top: 3%;
+}
+
+
+
+.cards{
+    width: 100%;
+
+}
+
+.mary-cards-body{
+    width: 100%;
+    margin: auto;
+    padding: 5%;
+
+}
+.card-img-top {
+    width: 10rem;
+    height: 10rem;
+    flex-shrink: 0;
+}
+.cards-col{
+    width: 33%;
+}
+
+
+.mary-card-title{
+    font-size: 0.9375rem;
+    text-align: center;
+
+}
+.mary-card-text{
+    font-size: 0.625rem;
+    width: 100%;
+    text-align: justify;
+    padding: 5%;
+}
+
+
+
+.church-heading-1{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+/* =======================================
+        Slider
+        ====================================*/
+.Slick-carousel{
+    overflow: hidden;
+}
+
+
+        .slick-slider button {
+            position: absolute;
+            top: 32%;
+            outline: "none";
+            border: none;
+            width: 1px;
+            height: 1px;
+            border-radius: 35px;
+            background-color: rgb(255, 255, 255);
+            color: white;
+            z-index: 99;
+        }
+        
+        .slick-slider .slick-prev {
+            left: -190px;
+            font-size: 0;
+        }
+        
+        .slick-slider .slick-prev::before {
+            content: url("../Images/Vector-arrow-left.svg");
+            line-height: 1;
+            font-size: 2.5rem;
+            margin-left: -25%;
+
+        }
+        .slick-track{
+            width: 80%;
+        }
+        
+        
+        .slick-slider .slick-next {
+            right: -100px;
+            font-size: 0;
+        }
+        
+        .slick-slider .slick-next::after {
+            content: url("../Images/Vector-arrow-right.svg");
+            line-height: 1;
+            font-size: 2.5rem;
+            margin-left: -20%;
+        }
+        
+        
+      
+        .slick-slider img{
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        
+        
+        
+        .slick-slide {
+            padding:40px 0;
+            position: relative;
+            height:auto !important;
+            opacity: 0.5;
+            transition: all 900ms ease;
+        }
+        
+        .slick-current {
+            opacity: 1;
+            transform: scale(1.2);
+            z-index: 99;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        } 
+        
+        .slick-slide .xyz{
+            opacity: 0;
+        }
+        
+        .slick-current .xyz{
+            opacity: 1;
+        }
+    
+
+
+
+
+ 
+
+
+
+
+
+
+.writing-headings{
+    font-size: 2.1875rem;
+    margin: auto;
+    padding-left: 3%;
+    align-items: center;
+    width: 40%;
+    padding-top: 2%;
+    justify-content: center;
+}
+
+.writing-content{
+    font-size: 0.9375rem;
+    width: 100%;
+    text-align: justify;
+    padding-top: 3%;
+}
+
+.blue-banner{
+    width: 100%;
+    height: 12.625rem;
+    background-size: 10%,10%;
+
+
+}
+.saint-words{
+    width: 60%;
+    height: 15.625rem;
+    margin: auto;
+}
+
+.blue-banner-content{
+    width: 90%;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.saint-name-1{
+    font-size: 1.25rem;
+    text-align: right;
+}
+.blue-banner-content{
+    font-size: 1.25rem;
+    width: 96%;
+    padding-left: 5%;
+    padding-top: 9%;
+    text-align: right;
+}
+
+
+
+
+
+
+/* tab footer  */
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+
+
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin-left: 45%;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 80%;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 0;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    font-size: 0.75rem;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code for mobile view  */
+
+
+@media (max-width: 575.98px) {
+
+
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .banner-page{
+        width: 100%;
+        height: 42rem;
+        background-position: center;
+        overflow: hidden;
+    }
+
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    
+    }
+    
+
+    /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(15%);
+    }
+  }
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+    .modal-body {
+        padding: 0;
+        
+    }
+    .modal-body ul
+    {
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        color: black;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar-brand{
+        width: 4.4375rem;
+        height: 4.13638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        background-color: rgb(134, 94, 66);
+        z-index: 199;
+
+    }
+
+    .btn-link{
+        margin-left: 39%;
+        margin-bottom: 7%;
+    }
+    
+    .navbar-toggler-icon-1{
+        font-size: 1.7rem;
+    }
+
+
+    .nav-link{
+        font-size: 0.7973rem;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+    .wrapper{
+        height: 12rem;
+        margin-top: 40%;
+    }
+    .banner-content{
+        height: 10rem;
+    }
+
+
+    .c1{
+        font-size: 1.875rem;
+      
+    }
+    
+    .c2{
+        font-size: 1.875rem;
+        line-height: 0.875rem; /* 46.667% */
+        width: 100%;
+        
+
+    }
+    .c3{
+        font-size: 0.925rem;
+        width: 100%;
+       
+    }
+    
+    .c-heading{
+        font-size: 2.5rem;
+
+    }
+
+
+
+
+    .rectangle{
+        z-index: 10;
+        position: absolute;
+        top: 75%;
+        left: 19%;
+        width: 14.625rem;
+        height: 14.25rem;
+        border-radius: 2rem;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+    }
+    .card-2, .card-3{
+        display: none;
+    }
+
+   
+
+    .Vector-card{
+        width: 100%;
+        margin: auto;
+    }
+    .vector-img{
+        width: 2.75rem;
+    }
+    
+    
+    .rectangle-card-title{
+        font-size: 1.625rem;
+        margin: auto;
+    }
+
+    .rectangle-card-text{
+        font-size: 0.7rem;
+        text-align: center;
+        padding-left: 1%;
+        margin: auto;
+    }
+
+
+    .c-heading{
+        font-size: 1.95rem;
+        margin-top: 20%;
+        width: 100%;
+    }
+    
+    .c-content-1, .c-content-2{
+        font-size: 0.925rem;
+        width: 90%;
+    }
+    
+
+    
+
+
+
+
+.vision{
+    width: 100%;
+    margin-top: 9%;
+    height: 30rem;
+}
+.vision-content{
+    padding-top: 1%;
+}
+
+.vision-heading{
+    font-size: 1.7rem;
+    margin-left: 5%;
+}
+.vision-description{
+    font-size: 1rem;
+    text-align: justify;
+    margin-left: 5%;
+    width: 90%;
+}
+
+
+.rossary-img-1{
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    background-size: 100%;
+}
+
+.rossary-img-2{
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    background-size: 100%;
+}
+
+
+
+
+.mission{
+    width: 100%;
+    border-radius: 2.625rem;
+    height: 28rem;
+}
+
+.mission-content{
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    height: 50%;
+}
+
+.mission-heading{
+    padding-top: 3%;
+    font-size: 1.7rem;
+    padding-left: 5%;
+    width: 90%;
+}   
+.mission-description{
+    font-size: 1rem;
+    text-align: justify;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.d-heading{
+    font-size: 1.625rem;
+    width: 70%;
+    padding-top: 5%;
+
+}
+
+.d-content{
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 14%;
+    padding-right: 14%;
+    }
+
+.contactUs{
+    width: 5.625rem;
+    height: 1.6875rem;
+    flex-shrink: 0;
+    border-radius: 0.96875rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #003049;
+    font-size: 0.625rem;
+    margin-left: 45%;
+}
+
+
+.contactUs-banner{
+    background: #780000;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+
+
+   
+
+}
+
+.contactUs-banner-h3{
+    font-size: 1.5rem;
+}
+
+.contactUs-banner-p{
+    font-size: 0.975rem;
+    width: 100%;
+    margin: auto;
+}
+.contactUs-banner-button{
+    width: 7.5rem;
+    height: 1.95rem;
+    flex-shrink: 0;
+    border: none;
+    font-size: 0.9rem;
+    margin-left: 30%;
+    margin-top: 6%;
+}
+
+.saint{
+    width: 100%;
+    height: 45rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+.saint-row{
+    height: 45rem;
+}
+
+.saint-img{
+    background-size: 100%;
+   border-radius:  0.88rem;
+   height: 19rem;
+   margin: auto;
+   width: 90%;
+}
+
+.saint-content{
+    height: 14rem;
+}
+.saint-name{
+    font-size: 1.875rem;
+    width: 100%;
+    padding-top: 0rem;
+    margin: auto;
+}
+
+.saint-prayer{
+    font-size: 0.9375rem;
+    width: 95%;
+    text-align: justify;
+    margin: 2%;
+    padding: 0;
+}
+
+.cards{
+    width: 100%;
+    margin: auto;
+}
+
+.mary{
+    background: #EAECEB;
+    margin: auto;
+}
+.mary-heading{
+    font-size: 1.5rem;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.mary-description{
+    font-size: 0.8375rem;
+    width: 100%;
+}
+
+.cards-col{
+    width: 100%;
+    margin: auto;
+}
+.mary-cards{
+    width: 100%;
+    margin: auto;
+
+}
+
+.card-img-top{
+    width: 90%;
+}
+
+.mary-card-title{
+    font-size: 1.7rem;
+}
+
+.mary-card-text{
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.church-heading{
+    margin-top: 2%;
+}
+
+.church-heading-1{
+    color: #003049;
+    font-size: 1.475rem;
+    width: 100%;
+    padding-left: 0;
+}
+
+
+.slick-slider{
+    overflow: hidden;
+}
+
+.writing-headings{
+    font-size: 1.475rem;
+    margin: auto;
+    align-items: center;
+}
+
+.writing-content{
+    font-size: 0.9375rem;
+    width: 100%;
+    text-align: justify;
+    padding-top: 3%;
+}
+
+.blue-banner{
+    background: #003049;
+    width: 100%;
+    height: 12.625rem;
+
+}
+.saint-words{
+    width: 100%;
+    height: 12.625rem;
+    margin: auto;
+    padding-top: 12%;
+}
+
+.blue-banner-content{
+    font-size: 1.25rem;
+    width: 96%;
+    text-align: center;
+    padding: 0;
+}
+.saint-name-1{
+    font-size: 1.2rem;
+    text-align: right;
+    width: 100%;
+}
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+
+
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin: auto;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    text-align: center;
+    font-size: 0.925rem;
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 2%;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--Basic-white, #FAFAFA);
+    font-family: Poppins;
+    font-size: 0.775rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.625rem; /* 166.667% */
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+}

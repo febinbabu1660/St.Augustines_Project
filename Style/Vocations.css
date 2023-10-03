@@ -1,0 +1,1457 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* menu bar and navbar  */
+
+.MenuBar-body{
+    width: 25.6875rem;
+    height: 48rem;
+    background-color: white;
+
+}
+
+  /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(70%);
+    }
+  }
+
+  /* Apply the animation to the modal */
+  .modal.slide-right .modal-dialog {    
+    animation: slideInRight 0.5s forwards;
+  }
+
+.modal-content{
+    /* width: 100%; */
+    width: 25.6875rem;
+    height: 43rem;
+    align-content: center;
+    text-align: center;
+    margin-left: 7rem !important;
+
+}
+
+
+.toggle-item{
+    align-items: center;
+    width: 100%;
+    margin-top: 4%;
+    text-decoration: none;
+    padding-right: 5%;
+    
+}
+
+.items-blue{
+    width: 16.1875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #003049;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.items-red{
+    width: 15.875rem;
+    height: 4.0625rem;
+    flex-shrink: 0;
+    border-radius: 2.8125rem;
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.toggle-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5%;
+    padding: 5%;
+}                                              
+.link-toggle{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link-toggle:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.banner-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #003049;
+    background-image: url("../Images/Rectangle.svg");
+    background-position:  top right;
+    background-repeat: no-repeat;
+    background-size: 48rem;
+    overflow: hidden;
+}
+
+
+.banner-wrapper{
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+
+.navbar{
+    padding-top: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+
+
+
+.nav-link{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+.banner-wrapper h3{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 100%;
+}
+
+.wrapper span{
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.banner-wrapper p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+
+    width: 90%;
+    padding-top: 3%;
+}
+
+.banner-wrapper button{
+    color: #780000;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 12.5rem;
+    height: 3.625rem;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 1rem;
+    border: none;
+    margin-top: 3%;
+}
+
+
+
+.priest-image{
+    width: 56.5%;
+    position: absolute;
+    top: 19.5%;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.second-section h3{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin: auto;
+    width: 50%;
+    padding-top: 5%;
+
+}
+
+.second-section p{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 95%;
+    text-align: justify;
+    padding-top: 3%;
+}
+
+.priest-img-2{
+    width: 100%;
+}
+
+.priest-3{
+    background-image: url("../Images/Frame-priest-3.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 50rem;
+    padding-left: 0;
+    height: 63.5rem;
+
+}
+
+.priest-img-3{
+    position: relative;
+    top: 20%;
+    left: 0;
+    width: 84.5%;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.priest-3-content{
+    width: 90%;
+    position: relative;
+    left: -29%;
+    top: 23%;
+
+}
+
+.priest-3-content h3{
+    color: #003049;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.priest-3-content p{
+    color: #023043;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 100%;
+    text-align: justify;
+}
+
+.priest-3-content button{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 19.625rem;
+    height: 5.6875rem;
+    flex-shrink: 0;
+    border-radius: 1.3125rem;
+    background: #780000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+.priest-4-content{
+    overflow: hidden;
+}
+
+
+.priest-4-content-title{
+    color: #000;
+    font-family: Abril Fatface;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-left: 3%;
+    width: 90%;
+}
+
+.priest-4-content-text{
+    color: #003049;
+font-family: Poppins;
+font-size: 1.5625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+padding-left: 3%;
+text-align: justify;
+width: 60%;
+overflow: hidden;
+}
+
+.priest-img-4{
+    width: 100%;
+}
+
+.sub-imgs{
+    width: 100%;
+}
+
+
+.priest-5-content-title{
+    color: #000;
+text-align: center;
+font-family: Abril Fatface;
+font-size: 3.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+width: 60%;
+padding-left: 15%;
+}
+
+.priest-5-content-text{
+    color: #003049;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 100%;
+    padding-left: 18%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 8rem;
+}
+.stay-updated{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 66.667% */
+    letter-spacing: 0.04319rem;
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 4%;
+}
+
+.footer{
+    background: #003049;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-logo{
+    flex-shrink: 0;
+    padding-top: 5%;
+    margin-left: 40%;
+}
+
+.f-logo{
+    width: 25%;
+}
+
+
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 96% */
+    letter-spacing: 0.03rem;
+    padding-top: 5%;
+}
+
+.s-name{
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 8%;
+    width: 100%;
+}
+.footer-heading{
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 133.333% */
+    letter-spacing: 0.02163rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Cabin;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+.text-footer:hover{
+    color: var(--basic-white, #FAFAFA);
+   
+}
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+
+.privacy{
+    color: var(--basic-white, #FAFAFA);
+    font-family: Raleway;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+}
+.social-media-buttons{
+    font-size: 2.5rem;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* for tablets  */
+    .navbar-toggler-icon-1{
+        font-size: 1rem;
+    }
+    
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        padding: 0;
+
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+        background-color: white;
+        
+    
+    }
+    
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+   
+    .modal-body ul{
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .navbar-brand{
+        width: 4.9375rem;
+        height: 4.53638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+
+    }
+    
+
+    .nav-link{
+        color: #ffffff;
+        font-size: 0.7973rem;
+       
+    }
+
+    .nav-link .active{
+        color: #ffffff ;
+        font-size: 0.7973rem;
+       
+    }
+
+
+    .banner-page{
+        width: 100%;
+        background-color: #003049;
+        background-image: url("../Images/Rectangle.svg");
+        background-position:  top right;
+        background-repeat: no-repeat;
+        background-size: 25rem;
+        overflow: hidden;
+
+        height: 30rem;
+    }
+    
+
+
+
+
+
+
+
+    .wrapper{
+        width: 100%;
+        padding-left: 5%;
+    }
+
+
+    .banner-wrapper h3{
+        color: #FFF;
+        font-family: Abril Fatface;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 100%;
+    }
+    
+    .wrapper span{
+        color: #FFF;
+        font-family: Abril Fatface;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 100%;
+    
+    
+    }
+    
+    .banner-wrapper p{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+    
+        width: 100%;
+        padding-top: 3%;
+    }
+    
+    .banner-wrapper button{
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+        width: 8.5rem;
+        height: 2.625rem;
+        flex-shrink: 0;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 1rem;
+        border: none;
+        margin-top: 3%;
+    }
+    
+    
+    
+    .priest-image{
+        width: 60%;
+        position: absolute;
+        top: 13%;
+        bottom: 0;
+        right: 0;
+        overflow: hidden;
+    }
+    
+    .second-section h3{
+        color: #003049;
+        font-family: Abril Fatface;
+        font-size: 2.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        padding-top: 5%;
+    
+    }
+    
+    .second-section p{
+        color: #003049;
+        font-family: Poppins;
+        font-size: 0.95rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+        width: 100%;
+        text-align: justify;
+        padding-top: 3%;
+    }
+    
+    .priest-img-2{
+        width: 100%;
+    }
+    
+    .priest-3{
+        background-size: 20rem;
+        padding-left: 0;
+        height: 30.5rem;
+    
+    }
+    
+    .priest-img-3{
+        position: relative;
+        top: 39%;
+        left: 0;
+    }
+    
+    .priest-3-content{
+        width: 95%;
+        position: relative;
+        top: 10%;
+    
+    }
+    
+    .priest-3-content h3{
+        font-size: 1.4rem;
+        width: 100%;
+    
+    }
+    
+    .priest-3-content p{
+        font-size: 0.925rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+        width: 100%;
+        text-align: justify;
+    }
+    
+    .priest-3-content button{
+        font-size: 0.925rem;
+        width: 8.625rem;
+        height: 2.6875rem;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    
+    .priest-4-content{
+        padding-left: 0;
+        overflow: hidden;
+    }
+    
+    
+    .priest-4-content-title{
+        font-size: 2.125rem;
+        padding-left: 3%;
+        width: 100%;
+    }
+    
+    .priest-4-content-text{
+    font-size: 0.925rem;
+    padding-left: 3%;
+    width: 95%;
+    overflow: hidden;
+    margin-bottom: 0;
+    }
+    
+    .priest-img-4{
+        width: 100%;
+    }
+    
+    .sub-imgs{
+        width: 100%;
+    }
+    
+    
+    .priest-5-content-title{
+    text-align: left;
+    font-size: 2.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    width: 90%;
+    padding-left: 5%;
+    }
+    
+    .priest-5-content-text{
+        font-size: 0.925rem;
+        width: 100%;
+        padding-left: 5%;
+        margin-bottom: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+/* tab footer  */
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+
+
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin-left: 45%;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 80%;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.5rem; /* 120% */
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 0;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    font-size: 0.75rem;
+    line-height: 1.4875rem; 
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive code for mobile view  */
+
+
+@media (min-width: 300px) and (max-width: 700px) {
+
+
+
+   /* mobile navbar */
+
+    .modal{
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .banner-page{
+        width: 100%;
+        height: 100vh;
+        background-image: none;
+        overflow: hidden;
+    }
+
+
+    .modal-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    }
+    .MenuBar-body{
+        width: 10.125rem;
+        height: 15.375rem;
+    
+    }
+    
+
+    /* Customize the modal animation */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(15%);
+    }
+  }
+        
+    .modal-content{
+        /* width: 100%; */
+        width: 10.125rem;
+        height: 18.375rem;
+        margin-top: 5rem !important;
+        margin-left: 1rem !important;
+        margin-right: 3rem !important;
+    }
+        
+    .modal-dialog{
+        overflow: hidden;
+    }
+
+    .modal-body {
+        padding: 0;
+        
+    }
+    .modal-body ul
+    {
+        padding: 0;
+    }
+
+    .modal-body ul li {
+        list-style: none;
+        display: inline-block;
+        color: black;
+        
+    }
+    
+
+    .items-blue,.items-red{
+        width: 5.3145rem;
+        height: 1.33375rem;
+        margin: auto;
+    }
+
+    .toggle-item{
+        margin-top: 1%;
+
+    }
+
+    .toggle-link{
+        font-size: 0.625rem;
+    }                                              
+
+    .navbar-brand{
+        width: 4.4375rem;
+        height: 4.13638rem;
+        flex-shrink: 0;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        background-color:#003049;
+        z-index: 199;
+
+    }
+
+    .btn-link{
+        margin-left: 39%;
+        margin-bottom: 7%;
+    }
+    
+    .navbar-toggler-icon-1{
+        font-size: 1.7rem;
+    }
+
+
+    .nav-link{
+        font-size: 0.7973rem;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+    .first-banner{
+        overflow: hidden;
+    }
+
+.banner-content{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+
+.banner-wrapper h3{
+    font-size: 2.6rem;
+    text-align: left;
+}
+
+.wrapper span{
+    font-size: 3.5rem;
+    text-align: left;
+
+}
+
+.banner-wrapper p{
+    font-size: 1rem;
+    text-align: justify;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.banner-wrapper button{
+    font-size: 1rem;
+    width: 9.5rem;
+    height: 2.925rem;
+    margin-top: 1%;
+    margin-left: 0%;
+}
+
+
+
+.priest-image, .mobile-card{
+   display: none;
+}
+
+
+
+.second-section h3{
+    font-size: 1.625rem;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding-top: 5%;
+
+}
+
+.second-section p{
+    font-size: 0.895rem;
+    width: 100%;
+    text-align: justify;
+    padding-top: 3%;
+}
+
+.priest-img-2{
+    width: 100%;
+}
+
+.priest-3{
+    background-size: 20rem;
+    padding-left: 0;
+    padding-right: 0;
+    height: 50rem;
+    overflow: hidden;
+
+}
+
+.priest-img-3{
+    position: relative;
+    top: 41%;
+    left: 0;
+}
+
+.priest-3-content{
+   
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 50%;
+
+}
+
+.priest-3-content h3{
+    font-size: 1.4rem;
+    width: 100%;
+
+}
+
+.priest-3-content p{
+    font-size: 0.925rem;
+
+    width: 100%;
+    text-align: justify;
+}
+
+.priest-3-content button{
+    font-size: 0.925rem;
+    width: 8.625rem;
+    height: 2.6875rem;
+    margin-top: 5%;
+    margin-left: 0%;
+}
+
+.priest-4-content{
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    width: 97%;
+}
+
+.priest-4-content-1{
+    width: 97%;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+
+.priest-4-content-title{
+    font-size: 1.5rem;
+    padding-left: 2%;
+    width: 90%;
+    margin: auto;
+}
+
+.priest-4-content-text{
+font-size: 0.925rem;
+width: 93%;
+margin-bottom: 0;
+padding-left: 3%;
+margin: auto;
+padding-top: 3%;
+}
+
+.priest-img-4{
+    width: 100%;
+    margin-top: 0%;
+}
+
+.sub-imgs{
+    display: none;
+}
+
+
+.priest-5-content-title{
+text-align: justify;
+font-size: 1.5rem;
+
+width: 90%;
+padding-left: 0;
+margin: auto;
+}
+
+.priest-5-content-text{
+    font-size: 0.925rem;
+    text-align: justify;
+    width: 93%;
+    padding-left: 0%;
+    margin-bottom: 0;
+    margin: auto;
+    padding-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile footer  */
+
+.stay-upto-date{
+    background: #780000;
+    width: 100%;
+    height: 4.1875rem;
+}
+.stay-updated{
+    font-size: 1.25rem;
+    letter-spacing: 0.024rem;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+.footer-logo{
+    width: 4.89019rem;
+    height: 4.473rem;
+    padding-top: 5%;
+    margin: auto;
+}
+
+.f-logo{
+    width: 100%;
+}
+
+.sentence{
+    padding-bottom: 5%;
+}
+
+.sentence-1{
+    width: 100%;
+    text-align: center;
+    font-size: 0.925rem;
+    letter-spacing: 0.024rem;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.s-name{
+    font-size: 0.9375rem;
+    line-height: 1.5rem; /* 160% */
+    letter-spacing: 0.018rem;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.footer-row{
+    padding-left: 2%;
+    width: 100%;
+}
+.footer-heading{
+    font-size: 0.9375rem;
+    letter-spacing: 0.018rem;
+    padding-bottom: 1%;
+}
+
+
+.text-footer{
+    color: var(--Basic-white, #FAFAFA);
+    font-family: Poppins;
+    font-size: 0.775rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.625rem; /* 166.667% */
+    text-decoration: none;
+  
+ 
+}
+
+
+
+.last-line-footer{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.copyright{
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.privacy{
+    font-size: 0.75rem;
+    line-height: 1.5rem; /* 200% */
+    letter-spacing: 0.01438rem;
+}
+
+.social-media-buttons{
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

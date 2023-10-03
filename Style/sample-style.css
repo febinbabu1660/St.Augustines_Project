@@ -1,0 +1,48 @@
+
+.sample{
+    background-color: cyan;
+    margin-top: 9%;
+}
+
+.sample img{
+    width: 100%;
+}
+
+.sample h1{
+    color: blue;
+}
+
+.sample p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.sample1{
+    background-color: rgb(111, 11, 212);
+    margin-top: 9%;
+}
+
+.sample1 img{
+    width: 100%;
+}
+
+.sample1 h1{
+    color: red;
+}
+
+.sample1 p{
+    color: #070000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
